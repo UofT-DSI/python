@@ -8,3 +8,7 @@ The purpose of the assignments is to further evaluate learners’ conceptual und
 | 35% | Assignment 1 | Due on **Saturday December 10 at 11:59pm** |
 | 35% | Assignment 2 | Due on **Saturday December 17 at 11:59pm** |
 | 20% | Assignment 3 | Due on **Monday December 19 at 11:59pm** |
+
+## Submission Instructions:
+
+Please share your completed assignments with your Salaar (s.liaqat@mail.utoronto.ca).
