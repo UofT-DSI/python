@@ -11,4 +11,4 @@ The purpose of the assignments is to further evaluate learners’ conceptual und
 
 ## Submission Instructions:
 
-Please share your completed assignments with your Salaar (s.liaqat@mail.utoronto.ca).
+Please share your completed assignments with Salaar (s.liaqat@mail.utoronto.ca).
