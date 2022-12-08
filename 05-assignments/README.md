@@ -11,4 +11,8 @@ The purpose of the assignments is to further evaluate learners’ conceptual und
 
 ## Submission Instructions:
 
-Please share your completed assignments with your Salaar (s.liaqat@mail.utoronto.ca).
+- Please share your completed assignments with Salaar via his email: s.liaqat@mail.utoronto.ca
+- Submissions can be in the form of a zip folder, Dropbox link, Google Drive link, etc.
+- IMPORTANT: for Assignment 2 we ask that you submit (1) your code, (2) your original data file, and (3) your DataFrame saved after running through all of your code.
+
+Please let us know if you have any questions!
