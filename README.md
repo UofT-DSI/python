@@ -84,10 +84,12 @@ The course is a live-coding class. Learners are expected to follow along with th
 ## Folder Structure
 * **01-slides:** Course slides as interactive Google Colab notebooks (.ipynb files)
 * **02-html-slides:** Course slides as HTML files that can be downloaded and viewed in a web browser
-* **03-pdf-slides:** Course slides as PDFs
+* **03-pdf-slides:** Course slides as PDF files
 * **04-homework:** Optional homework to practice concepts covered in class
 * **05-assignments:** Graded assignments
-* **06-live-code:** Notebooks from class live coding sessions
+* **06-html-assignments:** Assignments as HTML files
+* **07-pdf-assignments:** Assignments as PDF files
+* **08-live-code:** Notebooks from class live coding sessions
 * **data:** Datasets used in the course
 * README: This file!
 * LICENSE: Copyright information for these materials
