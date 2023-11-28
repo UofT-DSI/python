@@ -64,7 +64,7 @@ Schedule is tentative and may be modified as needed. Learners will be notified o
 * **Day 8 (Wednesday 20 December, 6:00 PM - 8:30 PM):** Review
 
 ## Prerequisites
-Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data  
+Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data 
 visualizations. No prior programming knowledge is required.
 
 ## Expectations
@@ -98,13 +98,13 @@ instructor.
 * .gitignore: Files to exclude from this folder, specified by the instructor
 
 ### Slides
-* [00 Hello Python](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/00_hello_python.ipynb#/)
-* [01 Getting Started: Python Fundamentals](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/01_getting_started_fundamentals.ipynb#/)
-* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/02_reality_control_flow_iterables.ipynb#/)
-* [03 In/Out: Modules, Files, OOP](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/03_in_out_modules_files_oop.ipynb#/)
-* [04a Doing More with Data: `numpy`](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/04a_data_numpy.ipynb#/)
-* [04b Doing More with Data: `pandas`](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/04b_data_pandas.ipynb#/)
-* [05 Visualizing Data](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/05_visualization.ipynb#/)
+* [00 Hello Python](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/00_hello_python.ipynb#/)
+* [01 Getting Started: Python Fundamentals](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/01_getting_started_fundamentals.ipynb#/)
+* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/02_reality_control_flow_iterables.ipynb#/)
+* [03 In/Out: Modules, Files, OOP](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/03_in_out_modules_files_oop.ipynb#/)
+* [04a Doing More with Data: `numpy`](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/04a_data_numpy.ipynb#/)
+* [04b Doing More with Data: `pandas`](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/04b_data_pandas.ipynb#/)
+* [05 Visualizing Data](https://github.com/UofT-DSI/03-python/blob/2023-course-materials/01-slides/05_visualization.ipynb#/)
 
 ## Key Texts
 Gries, Campbell, and Montojo, 2017, _Practical Programming: An Introduction to Computer Science Using Python 3.6._
