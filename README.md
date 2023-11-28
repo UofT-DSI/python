@@ -113,4 +113,4 @@ Adhikari, DeNero, and Wagner, _Computational and Inferential Thinking: The Found
 ## Acknowledgements
 Course materials were originally developed by Asel Kushkeyeva under the 
 supervision of Rohan Alexander, University of Toronto. Materials have been 
-modified by A. Mahfouz and Kaylie Lau for 2022 and 20223.
+modified by A. Mahfouz and Kaylie Lau for 2022 and 2023.
