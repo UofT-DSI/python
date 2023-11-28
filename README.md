@@ -2,18 +2,18 @@
  
  
 ## Contents:
-1. [Description](https://github.com/kaylielau/dsi-python#description)
-2. [Learning Outcomes](https://github.com/kaylielau/dsi-python#learning-outcomes)
-3. [Course Contacts](https://github.com/kaylielau/dsi-python#course-contacts)
-4. [Pre-Course Work](https://github.com/kaylielau/dsi-python#pre-course-work)
-5. [Design](https://github.com/kaylielau/dsi-python#design)
-6. [Schedule](https://github.com/kaylielau/dsi-python#schedule)
-7. [Prerequisites](https://github.com/kaylielau/dsi-python#prerequisites)
-7. [Expectations](https://github.com/kaylielau/dsi-python#expectations)
-8. [Policies](https://github.com/kaylielau/dsi-python#policies)
-9. [Folder Structure](https://github.com/kaylielau/dsi-python#folder-structure)
-10. [Key Texts](https://github.com/kaylielau/dsi-python#key-texts)
-11. [Acknowledgements](https://github.com/kaylielau/dsi-python#acknowledgements)
+1. [Description](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#learning-outcomes)
+3. [Course Contacts](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#course-contacts)
+4. [Pre-Course Work](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#pre-course-work)
+5. [Design](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#design)
+6. [Schedule](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#schedule)
+7. [Prerequisites](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#prerequisites)
+7. [Expectations](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#expectations)
+8. [Policies](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#policies)
+9. [Folder Structure](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#folder-structure)
+10. [Key Texts](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#key-texts)
+11. [Acknowledgements](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#acknowledgements)
  
 ## Description
 The course was created by the University of Toronto's Data Sciences Institute. It is designed for professionals with no prior technical background who are interested in 
@@ -98,14 +98,13 @@ instructor.
 * .gitignore: Files to exclude from this folder, specified by the instructor
 
 ### Slides
-* [00 Hello Python]( https://github.com/kaylielau/dsi-python/blob/main/01-slides/00_hello_python.ipynb#/)
-* [01 Getting Started: Python Fundamentals]( https://github.com/kaylielau/dsi-python/blob/main/01-slides/01_getting_started_fundamentals.ipynb#/)
-* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/kaylielau/dsi-python/blob/main/01-slides/02_reality_control_flow_iterables.ipynb#/)
-* [03 In/Out: Modules, Files, OOP]( https://github.com/kaylielau/dsi-python/blob/main/01-slides/03_in_out_modules_files_oop.ipynb#/)
-* [04a Doing More with Data: `numpy`](https://github.com/kaylielau/dsi-python/blob/main/01-slides/04a_data_numpy.ipynb#/)
-* [04b Doing More with Data: `pandas`](https://github.com/kaylielau/dsi-python/blob/main/01-slides/04b_data_pandas.ipynb#/)
-* [05 Visualizing Data](https://github.com/kaylielau/dsi-python/blob/main/01-slides/05_visualization.ipynb#/)
-* [06 Ethics](https://github.com/kaylielau/dsi-python/blob/main/01-slides/06_ethics.ipynb#/)
+* [00 Hello Python](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/00_hello_python.ipynb#/)
+* [01 Getting Started: Python Fundamentals](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/01_getting_started_fundamentals.ipynb#/)
+* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/02_reality_control_flow_iterables.ipynb#/)
+* [03 In/Out: Modules, Files, OOP](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/03_in_out_modules_files_oop.ipynb#/)
+* [04a Doing More with Data: `numpy`](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/04a_data_numpy.ipynb#/)
+* [04b Doing More with Data: `pandas`](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/04b_data_pandas.ipynb#/)
+* [05 Visualizing Data](https://github.com/UofT-DSI/03-python/blob/tree/2023-course-materials/01-slides/05_visualization.ipynb#/)
 
 ## Key Texts
 Gries, Campbell, and Montojo, 2017, _Practical Programming: An Introduction to Computer Science Using Python 3.6._
