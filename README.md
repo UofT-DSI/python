@@ -60,8 +60,8 @@ Schedule is tentative and may be modified as needed. Learners will be notified o
 * **Day 4 (Thursday 14 December, 6:00 PM - 8:30 PM):** In/Out (Modules; Working with files; Object-oriented programming)
 * **Day 5 (Saturday 16 December, 9:00 AM - 11:30 AM):** Doing More with Data I (`numpy`)
 * **Day 6 (Monday 18 December, 6:00 PM - 8:30 PM):** Doing More with Data II (`pandas`)
-* **Day 7 (Tuesday 19 December, 6:00 PM - 8:30 PM):** Visualizing Data (`matplotlib`; `seaborn`; `plotly`)
-* **Day 8 (Wednesday 20 December, 6:00 PM - 8:30 PM):** Review
+* **Day 7 (Tuesday 19 December, 6:00 PM - 8:30 PM):** Case Study Speaker
+* **Day 8 (Wednesday 20 December, 6:00 PM - 8:30 PM):** Visualizing Data (`matplotlib`; `seaborn`; `plotly`)
 
 ## Prerequisites
 Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data 
@@ -111,4 +111,6 @@ Gries, Campbell, and Montojo, 2017, _Practical Programming: An Introduction to C
 Adhikari, DeNero, and Wagner, _Computational and Inferential Thinking: The Foundations of Data Science._
  
 ## Acknowledgements
-Course materials were originally developed by Asel Kushkeyeva under the supervision of Rohan Alexander, University of Toronto. Materials have been modified by A. Mahfouz and Kaylie Lau for 2022.
+Course materials were originally developed by Asel Kushkeyeva under the 
+supervision of Rohan Alexander, University of Toronto. Materials have been 
+modified by A. Mahfouz and Kaylie Lau for 2022 and 20223.
