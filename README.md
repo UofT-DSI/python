@@ -1,7 +1,6 @@
-# DSI Workshop for Python
+# Python
  
- 
-## Contents:
+## Content
 1. [Description](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#description)
 2. [Learning Outcomes](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#learning-outcomes)
 3. [Course Contacts](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#course-contacts)
@@ -16,12 +15,8 @@
 11. [Acknowledgements](https://github.com/UofT-DSI/03-python/tree/2023-course-materials#acknowledgements)
  
 ## Description
-The course was created by the University of Toronto's Data Sciences Institute. It is designed for professionals with no prior technical background who are interested in 
-data science careers.
- 
 
-The course will focus on the essentials of coding in Python. You will learn how to design functions, repeat code using loops, store data in lists, test and debug your code, 
-and manipulate data using various data analysis and visualization tools such as `numpy`, `pandas`, `matplotlib`, `seaborn`, and `plotly`. 
+The course will focus on the essentials of coding in Python. You will learn how to design functions, repeat code using loops, store data in lists, test and debug your code, and manipulate data using various data analysis and visualization tools such as `numpy`, `pandas`, `matplotlib`, `seaborn`, and `plotly`.
   
 ## Learning Outcomes
 After successfully completing the course, the students will:
@@ -44,13 +39,10 @@ Prior to the first class please:
 2. Complete the pre-course survey: https://forms.gle/tn8a5aFC4ZNUfvQs5
  
 ## Design
-The course runs synchronously over Zoom. It consists of eight classes over the span of two weeks. Classes are 6:00 PM - 8:30 PM EDT on weekdays, and 9:00 AM - 11:30 AM EDT on 
-Saturday. Being mindful of online fatigue, there will be one or two breaks during each class where students are encouraged to stretch, grab a drink and snacks, or ask any 
-additional questions.
+The course runs synchronously over Zoom. It consists of eight classes over the span of two weeks. Classes are 6:00 PM - 8:30 PM EDT on weekdays, and 9:00 AM - 11:30 AM EDT on Saturday. Being mindful of online fatigue, there will be one or two breaks during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
  
 
-Tutorial sessions with a TA will also be offered over Zoom. These will take place from 5:30 PM - 6:00 PM EDT and 8:30 PM - 9:00 PM on weekdays, and 8:30 AM - 9:00 AM EDT and 
-11:30 AM - 12:00 PM EDT on Saturday. 
+Tutorial sessions with a TA will also be offered over Zoom. These will take place from 5:30 PM - 6:00 PM EDT and 8:30 PM - 9:00 PM on weekdays, and 8:30 AM - 9:00 AM EDT and 11:30 AM - 12:00 PM EDT on Saturday. 
  
 ## Schedule
 Schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
@@ -64,24 +56,21 @@ Schedule is tentative and may be modified as needed. Learners will be notified o
 * **Day 8 (Wednesday 20 December, 6:00 PM - 8:30 PM):** Visualizing Data (`matplotlib`; `seaborn`; `plotly`)
 
 ## Prerequisites
-Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data 
-visualizations. No prior programming knowledge is required.
+Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data visualizations. No prior programming knowledge is required.
 
 ## Expectations
-The course is a live-coding class. Learners are expected to follow along with the coding in their own Python notebooks. Learners should be active participants while coding and
-are encouraged to ask questions throughout. Although slides will be available, they should be referenced before or after class, as class will be dedicated to coding with the 
-instructor.
+The course is a live-coding class. Learners are expected to follow along with the coding in their own Python notebooks. Learners should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available, they should be referenced before or after class, as class will be dedicated to coding with the instructor.
  
 ### Technology requirements
 * Learners must have an internet connection and a computer to participate in online activities
 * Learners must have a Google account that can use [Google Colab](https://colab.research.google.com/)
  
 ## Policies
-* **Accessiblity:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
+* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
 * **Course communications:** Communications take place over email. Please include "DSI-Python" or similar in the subject line, e.g. "DSI-Python: pandas question"
 * **Camera:** Keeping your camera on is optional.
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
-* **Assessment:** There will be homework which is **not** graded, but highly reccomended, and there will be three assignments which **are** graded.
+* **Assessment:** There will be homework which is **not** graded, but highly recommended, and there will be three assignments which **are** graded.
  
 ## Folder Structure
 * **01-slides:** Course slides as interactive Google Colab notebooks (.ipynb files)
@@ -121,6 +110,4 @@ Gries, Campbell, and Montojo, 2017, _Practical Programming: An Introduction to C
 Adhikari, DeNero, and Wagner, _Computational and Inferential Thinking: The Foundations of Data Science._
  
 ## Acknowledgements
-Course materials were originally developed by Asel Kushkeyeva under the 
-supervision of Rohan Alexander, University of Toronto. Materials have been 
-modified by A. Mahfouz and Kaylie Lau for 2022 and 2023.
+Course materials were originally developed by Asel Kushkeyeva under the supervision of Rohan Alexander. Materials have been modified by A. Mahfouz and Kaylie Lau for 2022 and 2023.
