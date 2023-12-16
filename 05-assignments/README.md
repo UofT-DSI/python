@@ -6,7 +6,7 @@ The purpose of the assignments is to further evaluate learners’ conceptual und
 
 | Format | Details | Submission Instructions |
 | :----: | :----- | :---------------------- |
-| Assignment 1 | Due on **Sunday December 17 at 11:59pm** | [Submission Form for Assignment 1](https://forms.gle/97P6DtH4xW9yxcnV9). Upload your code file (LASTNAME_FIRSTNAME_code.ipynb). |
+| Assignment 1 | Due on **Sunday December 20 at 11:59pm** | [Submission Form for Assignment 1](https://forms.gle/97P6DtH4xW9yxcnV9). Upload your code file (LASTNAME_FIRSTNAME_code.ipynb). |
 | Assignment 2 | Due on **Saturday December 22 at 11:59pm** | [Submission Form for Assignment 2](https://forms.gle/LNdoh6SLMw3k8Rra6). Upload your (1) code file (LASTNAME_FIRSTNAME_code.ipynb), (2) original data file (LASTNAME_FIRSTNAME_orig.csv), and (3) processed DataFrame file (LASTNAME_FIRSTNAME_proc.csv) |
 
 Please let us know if you have any questions!
