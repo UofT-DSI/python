@@ -1,18 +1,18 @@
 # Python
  
 ## Content
-1. [Description](https://github.com/UofT-DSI/03-python/#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/03-python/#learning-outcomes)
-3. [Course Contacts](https://github.com/UofT-DSI/03-python/#course-contacts)
-4. [Pre-Course Work](https://github.com/UofT-DSI/03-python/#pre-course-work)
-5. [Design](https://github.com/UofT-DSI/03-python/#design)
-6. [Schedule](https://github.com/UofT-DSI/03-python/#schedule)
-7. [Prerequisites](https://github.com/UofT-DSI/03-python/#prerequisites)
-7. [Expectations](https://github.com/UofT-DSI/03-python/#expectations)
-8. [Policies](https://github.com/UofT-DSI/03-python/#policies)
-9. [Folder Structure](https://github.com/UofT-DSI/03-python/#folder-structure)
-10. [Key Texts](https://github.com/UofT-DSI/03-python/#key-texts)
-11. [Acknowledgements](https://github.com/UofT-DSI/03-python/#acknowledgements)
+1. [Description](https://github.com/UofT-DSI/python/#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/python/#learning-outcomes)
+3. [Course Contacts](https://github.com/UofT-DSI/python/#course-contacts)
+4. [Pre-Course Work](https://github.com/UofT-DSI/python/#pre-course-work)
+5. [Design](https://github.com/UofT-DSI/python/#design)
+6. [Schedule](https://github.com/UofT-DSI/python/#schedule)
+7. [Prerequisites](https://github.com/UofT-DSI/python/#prerequisites)
+7. [Expectations](https://github.com/UofT-DSI/python/#expectations)
+8. [Policies](https://github.com/UofT-DSI/python/#policies)
+9. [Folder Structure](https://github.com/UofT-DSI/python/#folder-structure)
+10. [Key Texts](https://github.com/UofT-DSI/python/#key-texts)
+11. [Acknowledgements](https://github.com/UofT-DSI/python/#acknowledgements)
  
 ## Description
 This section of the course will focus on the essentials of coding in Python. You will learn how to design functions, repeat code using loops, store data in lists, test and debug your code, and manipulate data using various data analysis and visualization tools such as `numpy`, `pandas`, `matplotlib`, `seaborn`, and `plotly`.
@@ -26,15 +26,15 @@ After completing this section of the course, the students will:
 5. Know how to debug and test Python code. Students will learn to troubleshoot errors and select test cases to check for the correctness, reliability, and robustness of code. This will be assessed in Assignments 1 and 2.
 
 ## Course Contacts
-**Questions should first posted Slack Channel**
+**Questions can be submitted to the #questions channel on Slack**
 
 * Instructor: **Kaylie Lau** (she/her). Emails to the instructor can be sent to kaylie.lau@mail.utoronto.ca.
-* Instructor: **Simeon Wong** (he/him). Emails to the instructor can be sent to simeonm.wong@mail.utoronto.ca
+* Instructor: **Simeon Wong** (he/him). Emails to the instructor can be sent to simeonm.wong@mail.utoronto.ca.
+* TA: **Julia Gallucci** (she/her). Emails to the teaching assistant can be sent to julia.gallucci@mail.utoronto.ca.
 * TA: **Tong Su** (she/her). Emails to the teaching assistant can be sent to tong.su@mail.utoronto.ca.
-* TA: **Julia Gallucci** (). Emails to the teaching assistant can be sent to julia.gallucci@mail.utoronto.ca
 
 ## Pre-Course Work
-Before the first class please get your computer set up by following these instructions: https://github.com/dtxe/DSI-Onboarding/tree/windows_onboarding/environment_setup
+Before the first class please get your computer set up by following these instructions: https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs
  
 ## Design
 The course runs synchronously over Zoom. The Python section consists of eight classes over two weeks. Classes are 6:00 PM - 8:30 PM EDT on weekdays, and 9:00 AM - 11:30 AM EDT on Saturday. Being mindful of online fatigue, there will be one or two breaks during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions. 
@@ -42,7 +42,7 @@ The course runs synchronously over Zoom. The Python section consists of eight cl
 Tutorial sessions with a TA will also be offered over Zoom. These will take place from 5:30 PM - 6:00 PM EDT and 8:30 PM - 9:00 PM on weekdays, and 8:30 AM - 9:00 AM EDT and 11:30 AM - 12:00 PM EDT on Saturdays. 
  
 ## Schedule
-Schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
+The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
 * **Day 1 (Monday, January 22, 6:00 PM - 8:30 PM):** Getting Started I (Introduction; Python fundamentals)
 * **Day 2 (Tuesday, January 23, 6:00 PM - 8:30 PM):** Getting Started II (Python fundamentals)
 * **Day 3 (Wednesday, January 24, 6:00 PM - 8:30 PM):** Dealing with Reality (Control flow using conditionals and loops; Lists, tuples, sets, and dictionaries)
@@ -59,15 +59,15 @@ Learners are expected to know how to operate a computer and are also expected to
 The course is a live coding class. Learners are expected to follow along with the coding in their own Python notebooks. Learners should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available, they should be referenced before or after class, as the class will be dedicated to coding with the instructor.
  
 ### Technology requirements
-* Learners must have a computer and an internet connection to participate in online activities
-* Learners must have set up their computer using this [link](https://github.com/dtxe/DSI-Onboarding/tree/windows_onboarding/environment_setup)
+* Learners must have a computer and an internet connection to participate in online activities.
+* Learners must have set up their computer using this [link](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
  
 ## Policies
 * **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
-* **Course communications:** Communications take place over email or on Slack. Please include "DSI-Python" or similar in the subject line, e.g. "DSI-Python: pandas question"
+* **Course communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Python" or similar in the subject line, e.g. "DSI-Python: pandas question"
 * **Camera:** Keeping your camera on is optional.
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
-* **Assessment:** There will be homework which is **not** graded, but highly recommended, and there will be three assignments which **are** graded.
+* **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
  
 ## Folder Structure
 * **01-slides:** Course slides as interactive notebooks (.ipynb files)
@@ -84,24 +84,24 @@ The course is a live coding class. Learners are expected to follow along with th
 * .gitignore: Files to exclude from this folder, specified by the instructor
 
 ### Slides
-* [00 Hello Python](https://github.com/UofT-DSI/03-python/blob/main/01-slides/00_hello_python.ipynb#/)
-* [01 Getting Started: Python Fundamentals](https://github.com/UofT-DSI/03-python/blob/main/01-slides/01_getting_started_fundamentals.ipynb#/)
-* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/UofT-DSI/03-python/blob/main/01-slides/02_reality_control_flow_iterables.ipynb#/)
-* [03 In/Out: Modules, Files, OOP](https://github.com/UofT-DSI/03-python/blob/main/01-slides/03_in_out_modules_files_oop.ipynb#/)
-* [04a Doing More with Data: `numpy`](https://github.com/UofT-DSI/03-python/blob/main/01-slides/04a_data_numpy.ipynb#/)
-* [04b Doing More with Data: `pandas`](https://github.com/UofT-DSI/03-python/blob/main/01-slides/04b_data_pandas.ipynb#/)
-* [05 Visualizing Data](https://github.com/UofT-DSI/03-python/blob/main/01-slides/05_visualization.ipynb#/)
+* [00 Hello Python](https://github.com/UofT-DSI/python/blob/main/01-slides/00_hello_python.ipynb#/)
+* [01 Getting Started: Python Fundamentals](https://github.com/UofT-DSI/python/blob/main/01-slides/01_getting_started_fundamentals.ipynb#/)
+* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/UofT-DSI/python/blob/main/01-slides/02_reality_control_flow_iterables.ipynb#/)
+* [03 In/Out: Modules, Files, OOP](https://github.com/UofT-DSI/python/blob/main/01-slides/03_in_out_modules_files_oop.ipynb#/)
+* [04a Doing More with Data: `numpy`](https://github.com/UofT-DSI/python/blob/main/01-slides/04a_data_numpy.ipynb#/)
+* [04b Doing More with Data: `pandas`](https://github.com/UofT-DSI/python/blob/main/01-slides/04b_data_pandas.ipynb#/)
+* [05 Visualizing Data](https://github.com/UofT-DSI/python/blob/main/01-slides/05_visualization.ipynb#/)
 
 ### Assignments
 
 * **Class attendance**: To ensure everyone actively participates in class activities, attendance is mandatory and will be monitored. If you are unable to attend class, it is your responsibility to make up the work that was covered.
-* [Assignment 1](https://github.com/UofT-DSI/03-python/blob/main/05-assignments/assignment_1.ipynb#/)
-* [Assignment 2](https://github.com/UofT-DSI/03-python/blob/main/05-assignments/assignment_2.ipynb#/)
+* [Assignment 1](https://github.com/UofT-DSI/python/blob/main/05-assignments/assignment_1.ipynb#/)
+* [Assignment 2](https://github.com/UofT-DSI/python/blob/main/05-assignments/assignment_2.ipynb#/)
 
 | Format | Details | Submission Instructions |
 | :----: | :----- | :---------------------- |
-| Assignment 1 | Due on **Tuesday, January 30 at 11:59pm** | Submit assignment via your Google Drive. Upload your code file (LASTNAME_FIRSTNAME_code.ipynb). |
-| Assignment 2 | Due on **Tuesday, February 6 at 11:59pm** | Submit assignment via your Google Drive. Upload your (1) code file (LASTNAME_FIRSTNAME_code.ipynb), (2) original data file (LASTNAME_FIRSTNAME_orig.csv), and (3) processed DataFrame file (LASTNAME_FIRSTNAME_proc.csv) |
+| Assignment 1 | Due on **Tuesday, January 30 at 11:59pm** | Submit assignment via your Google Drive. Upload your code file (LASTNAME_FIRSTNAME_python_assignment1_code.ipynb). |
+| Assignment 2 | Due on **Tuesday, February 6 at 11:59pm** | Submit assignment via your Google Drive. Upload your (1) code file (LASTNAME_FIRSTNAME_python_assignment2_code.ipynb), (2) original data file (LASTNAME_FIRSTNAME_python_assignment2_orig.csv), and (3) processed DataFrame file (LASTNAME_FIRSTNAME_python_assignment2_proc.csv) |
 
 ## Key Texts
 Gries, Campbell, and Montojo, 2017, _Practical Programming: An Introduction to Computer Science Using Python 3.6._
