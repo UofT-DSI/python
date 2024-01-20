@@ -14580,8 +14580,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Assignment-%231">Assignment #1<a class="anchor-link" href="#Assignment-%231">&#182;</a></h1><p>In this assignment, you will use your knowledge of Python to assess the efficacy of an imaginary new drug for arthritis inflammation flare-ups.</p>
-<p>You will use data from an imaginary clinical trial that had 60 patients take this new drug. Each <code>.csv</code> file has 60 rows, one for each patient, as well as 40 columns, one for each day they recorded the number flare-ups they experienced. There are 12 <code>.csv</code> files, one for each time patients met with the research team to report their experiences.</p>
+<h1 id="Assignment-%231:-Efficacy-Analysis-of-a-Hypothetical-Arthritis-Drug">Assignment #1: Efficacy Analysis of a Hypothetical Arthritis Drug<a class="anchor-link" href="#Assignment-%231:-Efficacy-Analysis-of-a-Hypothetical-Arthritis-Drug">&#182;</a></h1><p><strong>Objective</strong>: In this assignment, your task is to utilize Python programming skills to evaluate the effectiveness of a fictional medication designed to reduce inflammation caused by arthritis flare-ups.</p>
+<p><strong>Background</strong>: Imagine a clinical trial where 60 patients were administered a new drug for arthritis. Data from this trial has been recorded in a series of CSV files.</p>
+<p><strong>Data Structure</strong>:</p>
+<ul>
+<li>Each CSV file corresponds to a specific check-in session with the patients.</li>
+<li>There are 12 such CSV files, reflecting 12 different sessions where patients reported their experiences.</li>
+<li>Inside each file:<ul>
+<li>Rows: Each of the 60 rows represents a unique patient.</li>
+<li>Columns: Each of the 40 columns corresponds to a day, detailing the number of inflammation flare-ups the patient experienced on that day.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Your Role</strong>: Analyze this data to determine how effective the new drug has been in managing arthritis inflammation across the trial period.</p>
 
 </div>
 </div>
@@ -14593,7 +14604,25 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Setup">Setup<a class="anchor-link" href="#Setup">&#182;</a></h2><p>Download the .zip of data files from <a href="http://swcarpentry.github.io/python-novice-inflammation/data/python-novice-inflammation-data.zip">here</a> and extract the /data/ folder and all of it's contents Google Colab.</p>
+<p><strong>Data Preparation for VS Code Analysis</strong>:</p>
+<ol>
+<li><p><strong>Download the Data</strong>: First, click on this <a href="http://swcarpentry.github.io/python-novice-inflammation/data/python-novice-inflammation-data.zip">link</a> to download the ZIP file containing the necessary data for this assignment.</p>
+</li>
+<li><p><strong>Extract the Files</strong>:</p>
+<ul>
+<li>Once downloaded, locate the ZIP file on your computer.</li>
+<li>Extract the contents of this ZIP file, specifically focusing on the <code>/data/</code> folder inside it.</li>
+</ul>
+</li>
+<li><p><strong>Setting Up in VS Code</strong>:</p>
+<ul>
+<li>Open Visual Studio Code (VS Code) on your computer.</li>
+<li>Move or copy the extracted <code>/data/</code> folder to your working directory in VS Code.</li>
+<li>Ensure that all the contents of the <code>/data/</code> folder are accessible in your VS Code environment for analysis.</li>
+</ul>
+</li>
+</ol>
+<p>By following these steps, you will have all the necessary data files ready in your VS Code environment for the assignment.</p>
 
 </div>
 </div>
@@ -14605,8 +14634,22 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Part-1:-Reading-in-our-files">Part 1: Reading in our files<a class="anchor-link" href="#Part-1:-Reading-in-our-files">&#182;</a></h2><p>Our data includes files that are named <code>small-xx.csv</code>, which are <em>not</em> relevant to our analysis, and <code>inflammation-xx.csv</code>, which <em>are</em>. Complete the lines of code to create a list of the full paths for the files that we are interested in analyzing further.</p>
-<p><strong>Hint:</strong> Refer to <code>03_in_out_modules_files_oop</code> slides.</p>
+<h2 id="Part-1:-Importing-the-Relevant-Data-Files">Part 1: Importing the Relevant Data Files<a class="anchor-link" href="#Part-1:-Importing-the-Relevant-Data-Files">&#182;</a></h2><p><strong>Objective</strong>: In this section of the assignment, you are tasked with filtering and importing specific data files essential for our analysis.</p>
+<p><strong>Data File Types</strong>:</p>
+<ul>
+<li><strong>Irrelevant Files</strong>: Files named <code>small-xx.csv</code>. These files are not required for our analysis.</li>
+<li><strong>Relevant Files</strong>: Files named <code>inflammation-xx.csv</code>. These are the files that contain the data we need to analyze.</li>
+</ul>
+<p><strong>Your Task</strong>:</p>
+<ul>
+<li>Write a Python script to identify and create a list containing the full paths of all the <code>inflammation-xx.csv</code> files. These are the files we will be analyzing.</li>
+<li>Ensure that files named <code>small-xx.csv</code> are excluded from this list.</li>
+</ul>
+<p><strong>Guidance</strong>:</p>
+<ul>
+<li>If you need assistance with file operations in Python, please refer back to the <code>03_in_out_modules_files_oop</code> slides for helpful tips and examples.</li>
+</ul>
+<p>By completing this task, you will have a prepared list of all the relevant data files, ready for further analysis in subsequent parts of this assignment.</p>
 
 </div>
 </div>
@@ -14622,14 +14665,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">csv</span>
 
-<span class="n">path</span> <span class="o">=</span> <span class="s1">'/content/data'</span>
+<span class="n">path</span> <span class="o">=</span> <span class="s1">''</span> <span class="c1">#YOUR CODE HERE: put in the path to your file</span>
 <span class="n">all_paths</span> <span class="o">=</span> <span class="p">[]</span>
 
 <span class="c1">#this for loop will iterate through all the contents of the folder</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-  <span class="c1">#COMPLETE: check if the filename begins with 'inflammation'</span>
-  <span class="k">if</span> <span class="p">:</span>
-    <span class="c1">#COMPLETE: if True, append the full path to the array all_paths</span>
+  <span class="k">if</span> <span class="p">:</span>   <span class="c1">#YOUR CODE HERE: check if the filename begins with 'inflammation'</span>
+    <span class="c1">#YOUR CODE HERE: if True, append the full path to the array all_paths</span>
 
 
 <span class="nb">print</span><span class="p">(</span><span class="n">all_paths</span><span class="p">)</span>
@@ -14647,7 +14689,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Complete the lines of code to read in the first file in the list you created. Then, print each row in that file.</p>
+<h2 id="Task:-Reading-and-Displaying-Data-from-the-First-File">Task: Reading and Displaying Data from the First File<a class="anchor-link" href="#Task:-Reading-and-Displaying-Data-from-the-First-File">&#182;</a></h2><p><strong>Objective</strong>: Now that you have a list of the relevant <code>inflammation-xx.csv</code> file paths, your next step is to read and display the contents of the first file in this list.</p>
+<p><strong>Instructions</strong>:</p>
+<ol>
+<li><p><strong>Read the First File</strong>:</p>
+<ul>
+<li>Use Python to open the first file in your list of <code>inflammation-xx.csv</code> files.</li>
+<li>Ensure you're reading the file in a way that allows you to access its contents.</li>
+</ul>
+</li>
+<li><p><strong>Print Each Row</strong>:</p>
+<ul>
+<li>After opening the file, iterate through each row of data.</li>
+<li>Print each row so you can visually inspect the data it contains.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Expected Outcome</strong>:</p>
+<ul>
+<li>By completing this task, you will display the detailed data of each patient for the first day of the clinical trial. This step is crucial for understanding the structure and nature of the data you will be analyzing.</li>
+</ul>
+<p><strong>Hint</strong>: Remember to use appropriate Python file handling and data reading methods. If you need guidance on how to handle CSV files in Python, refer to the relevant sections in your Python learning resources.</p>
 
 </div>
 </div>
@@ -14661,9 +14723,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">all_paths</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">'r'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-    <span class="c1">#COMPLETE: read the .csv file</span>
-
-    <span class="c1">#COMPLETE: print each row</span>
+    <span class="c1"># YOUR CODE HERE: Use the csv.reader to read the .csv file into 'contents'</span>
+    
+    <span class="c1"># YOUR CODE HERE: Iterate through 'contents' using a for loop and print each row for inspection</span>
 </pre></div>
 
      </div>
@@ -14678,14 +14740,31 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="2.-Summarizing-our-data">2. Summarizing our data<a class="anchor-link" href="#2.-Summarizing-our-data">&#182;</a></h2><p>We will now define a function, <code>patient_summary()</code>,  that will summarize the data across each patient.</p>
-<p>More specifically, <code>patient_summary(file_path, operation)</code> should:</p>
+<h2 id="2.-Data-Summarization-Function:-patient_summary">2. Data Summarization Function: <code>patient_summary</code><a class="anchor-link" href="#2.-Data-Summarization-Function:-patient_summary">&#182;</a></h2><p><strong>Objective</strong>: Create a function named <code>patient_summary</code> that will compute summary statistics for each patient's data over a 40-day period.</p>
+<p><strong>Function Specifications</strong>:</p>
 <ul>
-<li>Take <code>file_path</code>, a string of the path to the data, and</li>
-<li><code>operation</code>, a string ("mean", "max", or "min") describing what operation to use summarize the number of flare-ups over the course of the 40 days across <strong>each patient</strong>.</li>
+<li><strong>Function Name</strong>: <code>patient_summary</code></li>
+<li><strong>Parameters</strong>:<ol>
+<li><code>file_path</code>: A string representing the path to the CSV file containing the patient data.</li>
+<li><code>operation</code>: A string specifying the type of summary operation to perform. Acceptable values are "mean", "max", or "min". This will determine whether the function calculates the average, maximum, or minimum number of flare-ups for each patient over the 40 days.</li>
+</ol>
+</li>
 </ul>
-<p><strong>Hint 1:</strong> Refer to <code>04a_data_numpy</code> slides.</p>
-<p><strong>Hint 2:</strong> The shape of the output should be the same size as the number of patients (i.e. 60).</p>
+<p><strong>Expected Behavior</strong>:</p>
+<ul>
+<li>Your function should read the data from the file at <code>file_path</code>.</li>
+<li>Perform the specified <code>operation</code> (mean, max, or min) to summarize the flare-ups data for each of the 60 patients.</li>
+<li>Return a list or array with 60 elements, each element being the result of the summary operation for a corresponding patient.</li>
+</ul>
+<p><strong>Output</strong>:</p>
+<ul>
+<li>The output should be an array or list with a length of 60, aligning with the number of patients in the study.</li>
+</ul>
+<p><strong>Hints for Implementation</strong>:</p>
+<ol>
+<li><strong>Utilizing NumPy</strong>: For efficient data manipulation and computation, consider using NumPy, as discussed in the <code>04a_data_numpy</code> slides.</li>
+<li><strong>Output Shape</strong>: Ensure that the shape of your output data matches the number of patients, which is 60.</li>
+</ol>
 
 </div>
 </div>
@@ -14701,18 +14780,25 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="k">def</span> <span class="nf">patient_summary</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">operation</span><span class="p">):</span>
-  <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="n">file_path</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">','</span><span class="p">)</span>
-  <span class="n">ax</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="c1"># load the data from the file</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="n">file_path</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">','</span><span class="p">)</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># this specifies that the operation should be done for each row (patient)</span>
 
-  <span class="c1"># COMPLETE: fill in the rest of the if, elif, and else statements</span>
-  <span class="k">if</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'mean'</span><span class="p">:</span>
+    <span class="c1"># implement the specific operation based on the 'operation' argument</span>
+    <span class="k">if</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'mean'</span><span class="p">:</span>
+        <span class="c1"># YOUR CODE HERE: calculate the mean (average) number of flare-ups for each patient</span>
 
-  <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'max'</span><span class="p">:</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'max'</span><span class="p">:</span>
+        <span class="c1"># YOUR CODE HERE: calculate the maximum number of flare-ups experienced by each patient</span>
 
-  <span class="k">else</span><span class="p">:</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'min'</span><span class="p">:</span>
+        <span class="c1"># YOUR CODE HERE: calculate the minimum number of flare-ups experienced by each patient</span>
+       
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># if the operation is not one of the expected values, raise an error</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"Invalid operation. Please choose 'mean', 'max', or 'min'."</span><span class="p">)</span>
 
-
-  <span class="k">return</span> <span class="n">summary_values</span>
+    <span class="k">return</span> <span class="n">summary_values</span>
 </pre></div>
 
      </div>
@@ -14728,7 +14814,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="c1"># test it out on the data file we read in and make sure the size is what we expect</span>
+<div class=" highlight hl-python"><pre><span></span><span class="c1"># test it out on the data file we read in and make sure the size is what we expect i.e., 60</span>
 <span class="n">data_min</span> <span class="o">=</span> <span class="n">patient_summary</span><span class="p">(</span><span class="n">all_paths</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">'min'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data_min</span><span class="p">))</span>
 </pre></div>
@@ -14745,14 +14831,29 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="3.-Checking-for-errors">3. Checking for errors<a class="anchor-link" href="#3.-Checking-for-errors">&#182;</a></h2><p>Sometimes, data entry results in some errors. As an example, if a patient has a mean inflammation of 0, this may indicate that a healthy individual was misgrouped into this dataset, or that there is some other issue requiring further attention.</p>
-<p>We will now define a function, <code>detect_problems()</code>, that can check for any patients that have a mean inflammation of 0.</p>
-<p><code>detect_problems(file_path)</code> should:</p>
+<h2 id="3.-Error-Detection-in-Patient-Data">3. Error Detection in Patient Data<a class="anchor-link" href="#3.-Error-Detection-in-Patient-Data">&#182;</a></h2><p><strong>Objective</strong>: Develop a function named <code>detect_problems</code> that identifies any irregularities in the patient data, specifically focusing on detecting patients with a mean inflammation score of 0.</p>
+<p><strong>Function Specifications</strong>:</p>
 <ul>
-<li>Take a  <code>file_path</code>, a string of the path to the data, and</li>
-<li>Return <code>True</code> or <code>False</code> depending whether a mean inflammation of 0 was found.</li>
+<li><strong>Function Name</strong>: <code>detect_problems</code></li>
+<li><strong>Parameter</strong>:<ul>
+<li><code>file_path</code>: A string that specifies the path to the CSV file containing patient data.</li>
 </ul>
-<p>Note that we have created a helper function, <code>check_zeros(x)</code>, which returns <code>True</code> or <code>False</code> if there are values of zero in an array. Use your function, <code>patient_summary()</code>, from (2) and our helper function, <code>check_zeros()</code>, to create your new <code>detect_problems()</code> function.</p>
+</li>
+</ul>
+<p><strong>Expected Behavior</strong>:</p>
+<ul>
+<li>The function should read the patient data from the file at <code>file_path</code>.</li>
+<li>Utilize the previously defined <code>patient_summary()</code> function to calculate the mean inflammation for each patient.</li>
+<li>Employ an additional helper function <code>check_zeros(x)</code> (already created) to determine if there are any zero values in the array of mean inflammations.</li>
+<li>The <code>detect_problems()</code> function should return <code>True</code> if there is at least one patient with a mean inflammation score of 0, and <code>False</code> otherwise.</li>
+</ul>
+<p><strong>Implementation Guidance</strong>:</p>
+<ol>
+<li>Call <code>patient_summary(file_path, 'mean')</code> to get the mean inflammation scores for all patients.</li>
+<li>Use <code>check_zeros()</code> to evaluate the mean scores. This helper function takes an array as input and returns <code>True</code> if it finds zero values in the array.</li>
+<li>Based on the output from <code>check_zeros()</code>, the <code>detect_problems()</code> function should return <code>True</code> (indicating an issue) if any mean inflammation scores of 0 are found, or <code>False</code> if none are found.</li>
+</ol>
+<p><strong>Note</strong>: This function is crucial for identifying potential data entry errors, such as healthy individuals being mistakenly included in the dataset or other data-related issues.</p>
 
 </div>
 </div>
@@ -14764,12 +14865,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Below is the helper function, <code>check_zeros(x)</code>. <strong>Do not modify this code!</strong> It is not necessary to understand all the code inside this helper function, but when using code others have written, you should have a good idea of:</p>
+<p><strong>Understanding the <code>check_zeros(x)</code> Helper Function</strong></p>
+<p>The <code>check_zeros(x)</code> function is provided as a tool to assist with your data analysis. While you do not need to modify or fully understand the internal workings of this function, it's important to grasp its input, output, and what the output signifies:</p>
 <ol>
-<li>what goes IN the function (<code>x</code>, an array of numbers),</li>
-<li>what comes OUT of the function (<code>True</code> or <code>False</code>), and</li>
-<li>what the output means (<code>True</code> if 0 found in array, <code>False</code> if 0 not found).</li>
+<li><p><strong>Input</strong>:</p>
+<ul>
+<li><strong>Parameter <code>x</code></strong>: This function takes an array of numbers as its input. In the context of your assignment, this array will typically represent a set of data points from your patient data, such as mean inflammation scores.</li>
+</ul>
+</li>
+<li><p><strong>Output</strong>:</p>
+<ul>
+<li>The function returns a boolean value: either <code>True</code> or <code>False</code>.</li>
+</ul>
+</li>
+<li><p><strong>Interpreting the Output</strong>:</p>
+<ul>
+<li><strong>Output is <code>True</code></strong>: This indicates that the array <code>x</code> contains at least one zero value. In the context of your analysis, this means that at least one patient has a mean inflammation score of 0, signaling a potential issue or anomaly in the data.</li>
+<li><strong>Output is <code>False</code></strong>: This signifies that there are no zero values in the array <code>x</code>. For your patient data, it means no patient has a mean inflammation score of 0, and thus no apparent anomalies of this type were detected.</li>
+</ul>
+</li>
 </ol>
+<p><strong>Usage in Your Analysis</strong>:
+When using <code>check_zeros(x)</code> in conjunction with your <code>patient_summary()</code> function in the <code>detect_problems()</code> function, you'll be checking whether any patient in your dataset has an average (mean) inflammation score of 0.</p>
 
 </div>
 </div>
@@ -14815,7 +14932,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Define your function `detect_problems` here</span>
 
 <span class="k">def</span> <span class="nf">detect_problems</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
-  <span class="c1">#COMPLETE: use patient_summary() to get the means and check_zeros() to check for zeros in the means</span>
+  <span class="c1">#YOUR CODE HERE: use patient_summary() to get the means and check_zeros() to check for zeros in the means</span>
 
   <span class="k">return</span>
 </pre></div>
