@@ -43,14 +43,15 @@ Tutorial sessions with a TA will also be offered over Zoom. These will take plac
  
 ## Schedule
 The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
-* **Day 1 (Monday, January 22, 6:00 PM - 8:30 PM):** Getting Started I (Introduction; Python fundamentals)
-* **Day 2 (Tuesday, January 23, 6:00 PM - 8:30 PM):** Getting Started II (Python fundamentals)
-* **Day 3 (Wednesday, January 24, 6:00 PM - 8:30 PM):** Dealing with Reality (Control flow using conditionals and loops; Lists, tuples, sets, and dictionaries)
-* **Day 4 (Thursday, January 25, 6:00 PM - 8:30 PM):** In/Out (Modules; Working with files; Object-oriented programming)
-* **Day 5 (Tuesday, January 30, 6:00 PM - 8:30 PM):** Doing More with Data I (`numpy`)
-* **Day 6 (Wednesday, January 31, 6:00 PM - 8:30 PM):** Doing More with Data II (`pandas`)
-* **Day 7 (Thursday, February 1, 6:00 PM - 8:30 PM):** Visualizing Data (`matplotlib`; `seaborn`; `plotly`)
-* **Day 8 (Saturday, February 3, 9:00 AM - 11:30 AM):** Case Study Speaker
+* **Day 1 (Saturday, January 20, 9:00 AM - 11:30 AM):** Getting Started I (Introduction; Python fundamentals)
+* **Day 2 (Monday, January 22, 6:00 PM - 8:30 PM):** Getting Started II (Python fundamentals)
+* **Day 3 (Tuesday, January 23, 6:00 PM - 8:30 PM):** Dealing with Reality (Control flow using conditionals and loops; Lists, tuples, sets, and dictionaries)
+* **Day 4 (Wednesday, January 24, 6:00 PM - 8:30 PM):** In/Out (Modules; Working with files; Object-oriented programming)
+* **Day 5 (Thursday, January 25, 6:00 PM - 8:30 PM):** Doing More with Data I (`numpy`)
+* **Day 6 (Tuesday, January 30, 6:00 PM - 8:30 PM):** Doing More with Data II (`pandas`)
+* **Day 7 (Wednesday, January 31, 6:00 PM - 8:30 PM):** Visualizing Data (`matplotlib`; `seaborn`; `plotly`)
+* **Day 8 (Thursday, February 1, 6:00 PM - 8:30 PM):** Review
+* **Day 9 (Saturday, February 3, 9:00 AM - 11:30 AM):** Case Study Speaker
 
 ## Prerequisites
 Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data visualizations. No prior programming knowledge is required.
