@@ -101,7 +101,7 @@ The course is a live coding class. Learners are expected to follow along with th
 
 | Format | Details | Submission Instructions |
 | :----: | :----- | :---------------------- |
-| Assignment 1 | Due on **Tuesday, January 30 at 11:59pm** | Submit assignment via your Google Drive. Upload your code file (LASTNAME_FIRSTNAME_python_assignment1_code.ipynb). |
+| Assignment 1 | Due on **Wednesday, January 31 at 11:59pm** | Submit assignment via your Google Drive. Upload your code file (LASTNAME_FIRSTNAME_python_assignment1_code.ipynb). |
 | Assignment 2 | Due on **Tuesday, February 6 at 11:59pm** | Submit assignment via your Google Drive. Upload your (1) code file (LASTNAME_FIRSTNAME_python_assignment2_code.ipynb), (2) original data file (LASTNAME_FIRSTNAME_python_assignment2_orig.csv), and (3) processed DataFrame file (LASTNAME_FIRSTNAME_python_assignment2_proc.csv) |
 
 ## Key Texts
