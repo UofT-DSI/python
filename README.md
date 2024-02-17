@@ -19,11 +19,10 @@ This section of the course will focus on the essentials of coding in Python. You
   
 ## Learning Outcomes
 After completing this section of the course, the students will:
-1. Understand various Python data types and their role in coding. This includes being able to differentiate and evaluate expressions using numeric types (integer, long, and floating-point numbers), Booleans, strings, and lists. This will be assessed in Assignment 1.
-2. Be able to reduce the duplication of code by following the Function Design Recipe and creating functions in Python. This will be assessed in Assignment 1.
-3. Be able to use `numpy` and `pandas` to analyze a dataset, more specifically, be able to use these libraries to manipulate numerical and tabular data in Python. This will be assessed in Assignments 1 and 2.
-4. Know how to interact with databases via Python. This includes using visualization techniques like `matplotlib`, `seaborn`, and `plotly`. This will be assessed in Assignment 2.
-5. Know how to debug and test Python code. Students will learn to troubleshoot errors and select test cases to check for the correctness, reliability, and robustness of code. This will be assessed in Assignments 1 and 2.
+1. Develop the ability to comfortably access and navigate the terminal
+2. Develop the skills to independently troubleshoot issues by identifying problems, conducting research, and formulating questions using components of reproducibility.
+3. Use git to collaboratively save, restore, and update work through version control
+4. Explain the difference between Git and GitHub
 
 ## Course Contacts
 **Questions can be submitted to the #questions channel on Slack**
