@@ -82,6 +82,7 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 
 ```markdown
 |-- slides
+|   |-- instructor-notes
 |   |-- html
 |   |-- pdf
 |   |-- live-code
@@ -97,5 +98,6 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 * **live-code:** Notebooks from class live coding sessions
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
+* **instructor-notes:** Instructions for the Instructor on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the instructor
