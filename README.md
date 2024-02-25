@@ -1,24 +1,25 @@
 # Python
  
-## Content
-1. [Description](#description)
-2. [Learning Outcomes](#learning-outcomes)
-3. [Course Contacts](#course-contacts)
-4. [Assignments](#assignments)
-5. [Course Contacts](#course-contacts)
-6. [Delivery of Module](#delivery-of-module)
-    
-    a. [How the Instructor will deliver](#how-the-instructor-will-deliver)
+## Table of Content
+* [Description](#description)
+* [Learning Outcomes](#learning-outcomes)
+* [Assignments](#assignments)
+* [Course Contacts](#course-contacts)
+* [Delivery of Module](#delivery-of-module)
+    + [How the Instructor will deliver](#how-the-instructor-will-deliver)
+    + [Expectations](#expectations)
+* [Schedule](#schedule)
+* [Policies](#policies)
+* [Technology requirements](#technology-requirements)
+* [Resources](#resources)
+    + [Documents](#documents)
+    + [Videos](#videos)
+* [Folder Structure](#folder-structure)
 
-    b. [Expectations](#expectations)
-
-7. [Schedule](#schedule)
-9. [Policies](#policies)
-10. [Technology Requirement](#technology-requirements)
-11. [Folder Structure](#folder-structure)
- 
 ## Description
-This module will introduce learners to the foundamentals of programming in Python. In the first week, they will learn how to write a block of code using variables, conditionals and loops. In the second week, the learners will more learn advanced topics such as Object Oriented Programming, and testing. As well, they will be introduced to `numPy`, used for scientific computing.
+This module introduces learners to the fundamentals of programming using Python. Coding is an essential skill that equips them to solve complex mathematical problems, analyze data, and visualize it. Learners will be introduced to programming concepts such as functions and object-oriented programming to make use of reusable blocks of code and models respectively. As well as numPy, a library tool for both data science and machine learning work. By the end of this module, learners will feel equipped to write reusable code, and analyze data. The contents in this module lays the foundation for all future modules to create complex data science and machine learning models.
+
+No coding experience is needed to take this module!
 
 ## Learning Outcomes
 By the end of the module, learners will:
@@ -50,8 +51,7 @@ There are two weekly assignments in this module:
 * TA: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
  
 ## Delivery of Module
-
-The module will run sychronously twice a week on Zoom. The first two days are used as "instructional days" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
+The module will run sychronously twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Instructor will deliver
 The instructors will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/slides`. All instructors will also upload any live coding files to this repository for any learners to revisit under `/live-code`.
@@ -64,8 +64,8 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 
 ||Day 1|Day 2|Day 3|Day 4|
 |---|---|---|---|---|
-|Week 1|Instructional Day (Data Types and Control Flow, Errors)|Work Period 1|Instructional Day (Inputs and Strings, Type Conversion)|Work Period 2|
-|Week 2|Instructional Day (Functions, Testing)|Work Period 1|Instructional Day (Object Oriented Programming, numPy)|Work Period 2|
+|Week 1|Lecture 1 (Data Types and Control Flow, Errors)|Work Period 1|Lecture 2 (Inputs and Strings, Type Conversion)|Work Period 2|
+|Week 2|Lecture 3 (Functions, Testing)|Work Period 1|Lecture 4 (Object Oriented Programming, numPy)|Work Period 2|
  
 ## Policies
 * **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
@@ -74,30 +74,62 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
 * **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
  
-## Technology requirements
+## Requirements
+* Learners are not expected to have any coding experience, we designed the learning contents for beginners.
+* Learners are encouraged to ask questions, and collaborate with others to enhance learning.
 * Learners must have a computer and an internet connection to participate in online activities.
-* Learners must have set up their computer using this [link](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* Learners must have VSCode installed with the following extensions: 
+    * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* Learners must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be use as a supportive tool to seek out answers to questions you may have.
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+
+## Resources
+Feel free to use the following as resources:
+
+### Documents
+- [Cheatsheet](https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet)
+  - [Direct to image](https://images.datacamp.com/image/upload/v1673614099/Python_Cheat_Sheet_for_Beginners_f939d6b1bb.png)
+- [Interactive Cheatsheet](https://www.pythoncheatsheet.org/)
+- [W3Schools](https://www.w3schools.com/python/)
+- [Official Python Docs](https://docs.python.org/3.12/)
+
+### Videos
+- [Dictionaries](https://www.youtube.com/watch?v=u0yr9B3nH8c)
+- [Loops](https://www.youtube.com/watch?v=dHANJ4l6fwA)
+- [Function](https://www.youtube.com/watch?v=NSbOtYzIQI0)
+- [Return vs print](https://www.youtube.com/watch?v=LWdsF79H1Pg)
+- [OOP Part 1](https://www.youtube.com/watch?v=wfcWRAxRVBA)
+- [OOP Part 2](https://www.youtube.com/watch?v=WOwi0h_-dfA)
+- [NumPy Playlist](https://www.youtube.com/playlist?list=PLGZqdNxqKzfYVbCaAKTPHVjz-VjQtBzbl)
+
+### How to get help
+![image](/Steps%20to%20ask%20for%20help.png)
+
+<hr>
 
 ## Folder Structure
 
 ```markdown
-|-- slides
+|-- 01 - slides
 |   |-- instructor-notes
 |   |-- html
 |   |-- pdf
-|   |-- live-code
-|-- homework
-|-- assignments
-|-- resources
+|   |-- live-coding
+|-- 02 - assignments
+|-- 03 - homework
+|-- data
 |-- .gitignore
 ```
 
 * **slides:** Course slides as interactive notebooks (.ipynb files)
 * **html slides:** Course slides as HTML files that can be downloaded and viewed in a web browser
 * **pdf slides:** Course slides as PDF files
-* **live-code:** Notebooks from class live coding sessions
+* **live-coding:** Notebooks from class live coding sessions
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
+* **data**: Contains all data associated with the module
 * **instructor-notes:** Instructions for the Instructor on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the instructor
