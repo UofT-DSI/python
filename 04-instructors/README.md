@@ -46,6 +46,9 @@ Learners are expected to complete the assignment before the first lecture of the
 ## What is the criteria for `pass` or `fail`?
 The criteria for a `pass` or `fail` is if all parts of the program are working, and nothing in the code is broken. For some assignments, a rubric will be given outlining the criteria needed to pass.
 
+## How to mark?
+If the learner's solution works, then they `pass`! You or the TA would only need to focus on providing them constructive feedback on how they can improve their code. If the solution does not work, then they `fail`, and you would provide any constructive feedback on their existing code, and encourage them to get their solution working.
+
 ## How will feedback be given?
 Feedback will be given through the pull request a learner had made, and allowing them to make revisions if needed. In order to maximize learning, feedback must be constructive, and specific.
 
