@@ -113,7 +113,6 @@ Feel free to use the following as resources:
 
 ```markdown
 |-- 01 - slides
-|   |-- instructor-notes
 |   |-- html
 |   |-- pdf
 |   |-- live-coding
