@@ -10,7 +10,7 @@
     + [Expectations](#expectations)
 * [Schedule](#schedule)
 * [Policies](#policies)
-* [Technology requirements](#technology-requirements)
+* [Requirements](#requirements)
 * [Resources](#resources)
     + [Documents](#documents)
     + [Videos](#videos)
