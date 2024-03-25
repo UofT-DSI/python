@@ -62,10 +62,10 @@ Learners are encouraged to be active participants while coding and are encourage
 ## Schedule
 The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
 
-||Day 1|Day 2|Day 3|Day 4|
-|---|---|---|---|---|
-|Week 1|Lecture 1 (Data Types and Control Flow, Errors)|Work Period 1|Lecture 2 (Inputs and Strings, Type Conversion)|Work Period 2|
-|Week 2|Lecture 3 (Functions, Testing)|Work Period 1|Lecture 4 (Object Oriented Programming, numPy)|Work Period 2|
+||Day 1|Day 2|Day 3|Day 4|Day 5|
+|---|---|---|---|---|---|
+|Week 1|Lecture 1 (Data Types and Control Flow, Errors)|Lecture 2 (Inputs and Strings, Type Conversion)|Case Study|Work Period 1|Work Period 2|
+|Week 2|Lecture 3 (Functions, Testing)|Lecture 4 (Object Oriented Programming, numPy)|Case Study|Work Period 1|Work Period 2|
  
 ## Policies
 * **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
