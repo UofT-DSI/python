@@ -1,7 +1,7 @@
-# Instructor Playbook
+# Technical Facilitator Playbook
 
 ## How do you interact with the repo?
-The instructor will teach using the content provided in the `/01-slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live-coding files to a new directory called `/live-coding` under `/01-slides` to this repository using a new branch and open up a pull request for it to be merge.
+The Technical Facilitator will teach using the content provided in the `/01-slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live-coding files to a new directory called `/live-coding` under `/01-slides` to this repository using a new branch and open up a pull request for it to be merge.
 
 ## How does the module flow?
 The module is organized into 3 main directories:
@@ -38,7 +38,7 @@ Introduce the cohort next to `object_oriented_programming` and `numPy`. The emph
 The assignment for their final week in this module is to analyze a fictional clinical trial where 60 patients were administered a new drug for arthritis. Learners must evaluate the effectiveness of a fictional medication designed to reduce inflammation caused by arthritis flare-ups.
 
 ## How do you assign assignments?
-Assignments are given and assigned at the start of each week at the end of the first lecture. The instructor will announce to the learners what the assignment is about, and how everything they will learn within the week will equip them to work on the assignment.
+Assignments are given and assigned at the start of each week at the end of the first lecture. The Technical Facilitator will announce to the learners what the assignment is about, and how everything they will learn within the week will equip them to work on the assignment.
 
 ## How an assignment is expected to be completed and delivered?
 Learners are expected to complete the assignment before the first lecture of the following week. They will deliver the assignment by opening up a pull request on their copied repo. The learner will also add a TA as a reviewer indicating they delivered a completed assignment, and it is ready to be graded as a `pass` or `fail`.
@@ -55,7 +55,7 @@ Feedback will be given through the pull request a learner had made, and allowing
 <hr>
 
 ## Definitions
-**Lecture**: A Lecture is a synchronous period of time, lasting up to 3 hours, where the instructor will facilitate and deliver the contents and learning outcomes online through Zoom. Learners are encouraged to participate and ask questions as they learn. Breaks are given if lecture goes pass an hour, with a 10 minutes break given for every hour still in a lecture.
+**Lecture**: A Lecture is a synchronous period of time, lasting up to 3 hours, where the Technical Facilitator will facilitate and deliver the contents and learning outcomes online through Zoom. Learners are encouraged to participate and ask questions as they learn. Breaks are given if lecture goes pass an hour, with a 10 minutes break given for every hour still in a lecture.
 
 **Work Period**: A Work Period is an asynchronous period of time, lasting up to 3 hours. The learners will work on their assignments and/or homework during this block of time. A TA will be present online through Zoom to assist the learners and answer any questions they may have. As work periods are asynchronous and flexible, learners can choose to work on their own time. However, it is encouraged to work during the block of time when a TA is present.
 
