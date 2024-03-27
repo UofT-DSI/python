@@ -112,12 +112,14 @@ Feel free to use the following as resources:
 ## Folder Structure
 
 ```markdown
-|-- 01-slides
-|-- 02-assignments
-|-- 03-homework
-|-- 04-Technical Facilitators
-|-- 05-data
-|-- .gitignore
+.
+├── 01-slides
+├── 02-assignments
+├── 03-homework
+├── 04-instructors
+├── 05-data
+├── README.md
+└── steps-to-ask-for-help.png
 ```
 
 * **slides:** Module slides as interactive notebooks (.ipynb files)
@@ -127,6 +129,6 @@ Feel free to use the following as resources:
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
 * **data**: Contains all data associated with the module
-* **Technical Facilitators:** Instructions for the Technical Facilitator on what to teach
+* **instructors:** Instructions for the Technical Facilitator on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
