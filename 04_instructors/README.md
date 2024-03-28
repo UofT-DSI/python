@@ -1,7 +1,7 @@
 # Technical Facilitator Playbook
 
 ## How do you interact with the repo?
-The Technical Facilitator will teach using the content provided in the `/01-slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live-coding files to a new directory called `/live-coding` under `/01-slides` to this repository using a new branch and open up a pull request for it to be merge.
+The Technical Facilitator will teach using the content provided in the `/01_slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live-coding files to a new directory called `/live-coding` under `/01_slides` to this repository using a new branch and open up a pull request for it to be merge.
 
 ## How does the module flow?
 The module is organized into 3 main directories:
@@ -9,11 +9,11 @@ The module is organized into 3 main directories:
 2. Assignments
 3. Homework
 
-The `/01-slides` directory would be the first directory anyone would see, and contains the lecture slides, learning outcomes, and anything related to the learning outcomes such as live-coding files.
+The `/01_slides` directory would be the first directory anyone would see, and contains the lecture slides, learning outcomes, and anything related to the learning outcomes such as live-coding files.
 
-The `/02-assignments` directory is the second directory containing the assignments that would be marked as a `pass` or `fail`. Compared to `/03-homework`, the assignments are slightly more difficult, and helps encapsulates the learnings for the week. All assignments are mandatory to complete and deliver.
+The `/02_assignments` directory is the second directory containing the assignments that would be marked as a `pass` or `fail`. Compared to `/03_homework`, the assignments are slightly more difficult, and helps encapsulates the learnings for the week. All assignments are mandatory to complete and deliver.
 
-The `/03-homework` directory contains all the homework, a learner can do to demonstrate mastery of the learning contents. Unlike the `/02-assignments` directory, all homework is optional, but is highly encouraged to attempt.
+The `/03_homework` directory contains all the homework, a learner can do to demonstrate mastery of the learning contents. Unlike the `/02_assignments` directory, all homework is optional, but is highly encouraged to attempt.
 
 ### Week 1
 

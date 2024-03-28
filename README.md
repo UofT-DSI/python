@@ -54,7 +54,7 @@ There are two weekly assignments in this module:
 The module will run sychronously up twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Technical Facilitator will deliver
-The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01-slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live-code`.
+The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
@@ -105,7 +105,7 @@ Feel free to use the following as resources:
 - [NumPy Playlist](https://www.youtube.com/playlist?list=PLGZqdNxqKzfYVbCaAKTPHVjz-VjQtBzbl)
 
 ### How to get help
-![image](/steps-to-ask-for-help.png)
+![image](/steps_to_ask_for_help.png)
 
 <hr>
 
@@ -113,22 +113,19 @@ Feel free to use the following as resources:
 
 ```markdown
 .
-├── 01-slides
-├── 02-assignments
-├── 03-homework
-├── 04-instructors
-├── 05-data
+├── 01_slides
+├── 02_assignments
+├── 03_homework
+├── 04_instructors
+├── 05_data
 ├── README.md
-└── steps-to-ask-for-help.png
+└── steps_to_ask_for_help.png
 ```
 
 * **slides:** Module slides as interactive notebooks (.ipynb files)
-* **html slides:** Module slides as HTML files that can be downloaded and viewed in a web browser
-* **pdf slides:** Module slides as PDF files
-* **live-coding:** Notebooks from class live coding sessions
-* **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
-* **data**: Contains all data associated with the module
+* **homework:** Optional homework to practice concepts covered in class
 * **instructors:** Instructions for the Technical Facilitator on what to teach
-* README: This file!
+* **data**: Contains all data associated with the module
+* **README**: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
