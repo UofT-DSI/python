@@ -105,7 +105,7 @@ Feel free to use the following as resources:
 - [NumPy Playlist](https://www.youtube.com/playlist?list=PLGZqdNxqKzfYVbCaAKTPHVjz-VjQtBzbl)
 
 ### How to get help
-![image](/steps-to-ask-for-help.png)
+![image](/steps_to_ask_for_help.png)
 
 <hr>
 
@@ -119,7 +119,7 @@ Feel free to use the following as resources:
 ├── 04-instructors
 ├── 05-data
 ├── README.md
-└── steps-to-ask-for-help.png
+└── steps_to_ask_for_help.png
 ```
 
 * **slides:** Module slides as interactive notebooks (.ipynb files)
