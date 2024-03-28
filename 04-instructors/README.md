@@ -44,7 +44,7 @@ Assignments are given and assigned at the start of each week at the end of the f
 Learners are expected to complete the assignment before the first lecture of the following week. They will deliver the assignment by opening up a pull request on their copied repo. The learner will also add a Learning Suport Staff as a reviewer indicating they delivered a completed assignment, and it is ready to be graded as a `pass` or `fail`.
 
 ## What is the criteria for `pass` or `fail`?
-The criteria for a `pass` or `fail` is if all parts of the program are working, and nothing in the code is broken. For some assignments, a rubric will be given outlining the criteria needed to pass.
+The criteria for a `pass` or `fail` is if all parts of the certification are working, and nothing in the code is broken. For some assignments, a rubric will be given outlining the criteria needed to pass.
 
 ## How to mark?
 If the learner's solution works, then they `pass`! You or the Learning Suport Staff would only need to focus on providing them constructive feedback on how they can improve their code. If the solution does not work, then they `fail`, and you would provide any constructive feedback on their existing code, and encourage them to get their solution working.
