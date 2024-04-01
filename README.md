@@ -47,8 +47,13 @@ There are two weekly assignments in this module:
 ## Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
-* Technical Facilitator: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
-* Learning Support Staff: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Technical Facilitator: 
+  * name and pronouns: `<Name>`, `<Pronouns>` 
+  * email: `<first_name.last_name@mail.ca>`
+* Learning Support Staff: 
+  * name and pronouns: `<Name>`, `<Pronouns>` 
+  * email: `<first_name.last_name@mail.ca>`
+
  
 ## Delivery of Module
 The module will run sychronously up twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
