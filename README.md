@@ -1,112 +1,136 @@
 # Python
  
 ## Content
-1. [Description](https://github.com/UofT-DSI/python/#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/python/#learning-outcomes)
-3. [Course Contacts](https://github.com/UofT-DSI/python/#course-contacts)
-4. [Pre-Course Work](https://github.com/UofT-DSI/python/#pre-course-work)
-5. [Design](https://github.com/UofT-DSI/python/#design)
-6. [Schedule](https://github.com/UofT-DSI/python/#schedule)
-7. [Prerequisites](https://github.com/UofT-DSI/python/#prerequisites)
-7. [Expectations](https://github.com/UofT-DSI/python/#expectations)
-8. [Policies](https://github.com/UofT-DSI/python/#policies)
-9. [Folder Structure](https://github.com/UofT-DSI/python/#folder-structure)
-10. [Key Texts](https://github.com/UofT-DSI/python/#key-texts)
-11. [Acknowledgements](https://github.com/UofT-DSI/python/#acknowledgements)
- 
-## Description
-This section of the course will focus on the essentials of coding in Python. You will learn how to design functions, repeat code using loops, store data in lists, test and debug your code, and manipulate data using various data analysis and visualization tools such as `numpy`, `pandas`, `matplotlib`, `seaborn`, and `plotly`.
-  
-## Learning Outcomes
-After completing this section of the course, the students will:
-1. Understand various Python data types and their role in coding. This includes being able to differentiate and evaluate expressions using numeric types (integer, long, and floating-point numbers), Booleans, strings, and lists. This will be assessed in Assignment 1.
-2. Be able to reduce the duplication of code by following the Function Design Recipe and creating functions in Python. This will be assessed in Assignment 1.
-3. Be able to use `numpy` and `pandas` to analyze a dataset, more specifically, be able to use these libraries to manipulate numerical and tabular data in Python. This will be assessed in Assignments 1 and 2.
-4. Know how to interact with databases via Python. This includes using visualization techniques like `matplotlib`, `seaborn`, and `plotly`. This will be assessed in Assignment 2.
-5. Know how to debug and test Python code. Students will learn to troubleshoot errors and select test cases to check for the correctness, reliability, and robustness of code. This will be assessed in Assignments 1 and 2.
+* [Description](#description)
+* [Learning Outcomes](#learning-outcomes)
+* [Assignments](#assignments)
+* [Module Contacts](#module-contacts)
+* [Delivery of Module](#delivery-of-module)
+    + [How the Technical Facilitator will deliver](#how-the-technical-facilitator-will-deliver)
+    + [Expectations](#expectations)
+* [Schedule](#schedule)
+* [Policies](#policies)
+* [Requirements](#requirements)
+* [Resources](#resources)
+    + [Documents](#documents)
+    + [Videos](#videos)
+* [Folder Structure](#folder-structure)
 
-## Course Contacts
+## Description
+This module introduces learners to the fundamentals of programming using Python. Coding is an essential skill that equips them to solve complex mathematical problems, analyze data, and visualize it. Learners will be introduced to programming concepts such as functions and object-oriented programming to make use of reusable blocks of code and models respectively. As well as numPy, a library tool for both data science and machine learning work. By the end of this module, learners will feel equipped to write reusable code, and analyze data. The contents in this module lays the foundation for all future modules to create complex data science and machine learning models.
+
+No coding experience is needed to take this module!
+
+## Learning Outcomes
+By the end of the module, learners will:
+
+**Week 1:**
+1. Write block of code in Python using variables and conditionals
+2. Identify the differences between different data types
+3. Use a loop to go over elements of an array
+4. Identify and resolve errors
+
+**Week 2:**
+1. Describe the benefits of Object Oriented programming
+2. Write a block of code as a reuseable function
+3. Use manual and automated testing to ensure block of code works as expected
+4. Use the numPy to perform mathematical operations on arrays and datasets
+
+## Assignments
+There are two weekly assignments in this module:
+
+|Name|Description|
+|---|---|
+|Anagram Checker|Anagram Checker is a program that takes two words and see if an anagram can be made from it. If so, the program will return `true`, otherwise `false`.|
+|Efficacy Analysis of a Hypothetical Arthritis Drug | Imagine a clinical trial where 60 patients were administered a new drug for arthritis. Data from this trial has been recorded in a series of CSV files. Evaluate the effectiveness of a fictional medication designed to reduce inflammation caused by arthritis flare-ups.|
+
+## Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
-* Instructor: **Kaylie Lau** (she/her). Emails to the instructor can be sent to kaylie.lau@mail.utoronto.ca.
-* Instructor: **Simeon Wong** (he/him). Emails to the instructor can be sent to simeonm.wong@mail.utoronto.ca.
-* TA: **Julia Gallucci** (she/her). Emails to the teaching assistant can be sent to julia.gallucci@mail.utoronto.ca.
-* TA: **Tong Su** (she/her). Emails to the teaching assistant can be sent to tong.su@mail.utoronto.ca.
+* Technical Facilitator: 
+  * name and pronouns: `<Name>`, `<Pronouns>` 
+  * email: `<first_name.last_name@mail.ca>`
+* Learning Support Staff: 
+  * name and pronouns: `<Name>`, `<Pronouns>` 
+  * email: `<first_name.last_name@mail.ca>`
 
-## Pre-Course Work
-Before the first class please get your computer set up by following these instructions: https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs
  
-## Design
-The course runs synchronously over Zoom. The Python section consists of eight classes over two weeks. Classes are 6:00 PM - 8:30 PM EDT on weekdays, and 9:00 AM - 11:30 AM EDT on Saturday. Being mindful of online fatigue, there will be one or two breaks during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions. 
+## Delivery of Module
+The module will run sychronously up twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
-Tutorial sessions with a TA will also be offered over Zoom. These will take place from 5:30 PM - 6:00 PM EDT and 8:30 PM - 9:00 PM on weekdays, and 8:30 AM - 9:00 AM EDT and 11:30 AM - 12:00 PM EDT on Saturdays. 
+### How the Technical Facilitator will deliver
+The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
  
+### Expectations
+Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
+
 ## Schedule
 The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
-* **Day 1 (Saturday, January 20, 9:00 AM - 11:30 AM):** Getting Started I (Introduction; Python fundamentals)
-* **Day 2 (Monday, January 22, 6:00 PM - 8:30 PM):** Getting Started II (Python fundamentals)
-* **Day 3 (Tuesday, January 23, 6:00 PM - 8:30 PM):** Dealing with Reality (Control flow using conditionals and loops; Lists, tuples, sets, and dictionaries)
-* **Day 4 (Wednesday, January 24, 6:00 PM - 8:30 PM):** In/Out (Modules; Working with files; Object-oriented programming)
-* **Day 5 (Thursday, January 25, 6:00 PM - 8:30 PM):** Doing More with Data I (`numpy`)
-* **Day 6 (Tuesday, January 30, 6:00 PM - 8:30 PM):** Doing More with Data II (`pandas`)
-* **Day 7 (Wednesday, January 31, 6:00 PM - 8:30 PM):** Visualizing Data (`matplotlib`; `seaborn`; `plotly`)
-* **Day 8 (Thursday, February 1, 6:00 PM - 8:30 PM):** Review
-* **Day 9 (Saturday, February 3, 9:00 AM - 11:30 AM):** Case Study Speaker
 
-## Prerequisites
-Learners are expected to know how to operate a computer and are also expected to be familiar with the parts of a data table or spreadsheet, summary statistics, and basic data visualizations. No prior programming knowledge is required.
-
-## Expectations
-The course is a live coding class. Learners are expected to follow along with the coding in their own Python notebooks. Learners should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available, they should be referenced before or after class, as the class will be dedicated to coding with the instructor.
- 
-### Technology requirements
-* Learners must have a computer and an internet connection to participate in online activities.
-* Learners must have set up their computer using this [link](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+||Day 1|Day 2|Day 3|Day 4|Day 5|
+|---|---|---|---|---|---|
+|Week 1|Lecture 1 (Data Types and Control Flow, Errors)|Lecture 2 (Inputs and Strings, Type Conversion)|Case Study|Work Period 1|Work Period 2|
+|Week 2|Lecture 3 (Functions, Testing)|Lecture 4 (Object Oriented Programming, numPy)|Case Study|Work Period 1|Work Period 2|
  
 ## Policies
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
-* **Course communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Python" or similar in the subject line, e.g. "DSI-Python: pandas question"
+* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
+* **Module communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Python" or similar in the subject line, e.g. "DSI-Python: pandas question"
 * **Camera:** Keeping your camera on is optional.
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
 * **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
  
+## Requirements
+* Learners are not expected to have any coding experience, we designed the learning contents for beginners.
+* Learners are encouraged to ask questions, and collaborate with others to enhance learning.
+* Learners must have a computer and an internet connection to participate in online activities.
+* Learners must have VSCode installed with the following extensions: 
+    * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* Learners must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be use as a supportive tool to seek out answers to questions you may have.
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+
+## Resources
+Feel free to use the following as resources:
+
+### Documents
+- [Cheatsheet](https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet)
+  - [Direct to image](https://images.datacamp.com/image/upload/v1673614099/Python_Cheat_Sheet_for_Beginners_f939d6b1bb.png)
+- [Interactive Cheatsheet](https://www.pythoncheatsheet.org/)
+- [W3Schools](https://www.w3schools.com/python/)
+- [Official Python Docs](https://docs.python.org/3.12/)
+
+### Videos
+- [Dictionaries](https://www.youtube.com/watch?v=u0yr9B3nH8c)
+- [Loops](https://www.youtube.com/watch?v=dHANJ4l6fwA)
+- [Function](https://www.youtube.com/watch?v=NSbOtYzIQI0)
+- [Return vs print](https://www.youtube.com/watch?v=LWdsF79H1Pg)
+- [OOP Part 1](https://www.youtube.com/watch?v=wfcWRAxRVBA)
+- [OOP Part 2](https://www.youtube.com/watch?v=WOwi0h_-dfA)
+- [NumPy Playlist](https://www.youtube.com/playlist?list=PLGZqdNxqKzfYVbCaAKTPHVjz-VjQtBzbl)
+
+### How to get help
+![image](/steps_to_ask_for_help.png)
+
+<hr>
+
 ## Folder Structure
-* **01-slides:** Course slides as interactive notebooks (.ipynb files)
-* **02-html-slides:** Course slides as HTML files that can be downloaded and viewed in a web browser
-* **03-pdf-slides:** Course slides as PDF files
-* **04-homework:** Optional homework to practice concepts covered in class
-* **05-assignments:** Graded assignments
-* **06-html-assignments:** Assignments as HTML files
-* **07-pdf-assignments:** Assignments as PDF files
-* **08-live-code:** Notebooks from class live coding sessions
-* **data:** Datasets used in the course
-* README: This file!
-* LICENSE: Copyright information for these materials
-* .gitignore: Files to exclude from this folder, specified by the instructor
 
-### Slides
-* [00 Hello Python](https://github.com/UofT-DSI/python/blob/main/01-slides/00_hello_python.ipynb#/)
-* [01 Getting Started: Python Fundamentals](https://github.com/UofT-DSI/python/blob/main/01-slides/01_getting_started_fundamentals.ipynb#/)
-* [02 Dealing with Reality: Control Flow and Iterables](https://github.com/UofT-DSI/python/blob/main/01-slides/02_reality_control_flow_iterables.ipynb#/)
-* [03 In/Out: Modules, Files, OOP](https://github.com/UofT-DSI/python/blob/main/01-slides/03_in_out_modules_files_oop.ipynb#/)
-* [04a Doing More with Data: `numpy`](https://github.com/UofT-DSI/python/blob/main/01-slides/04a_data_numpy.ipynb#/)
-* [04b Doing More with Data: `pandas`](https://github.com/UofT-DSI/python/blob/main/01-slides/04b_data_pandas.ipynb#/)
-* [05 Visualizing Data](https://github.com/UofT-DSI/python/blob/main/01-slides/05_visualization.ipynb#/)
+```markdown
+.
+├── 01_slides
+├── 02_assignments
+├── 03_homework
+├── 04_instructors
+├── 05_data
+├── README.md
+└── steps_to_ask_for_help.png
+```
 
-### Assignments
-
-* **Class attendance**: To ensure everyone actively participates in class activities, attendance is mandatory and will be monitored. If you are unable to attend class, it is your responsibility to make up the work that was covered.
-* [Assignment 1](https://github.com/UofT-DSI/python/blob/main/05-assignments/assignment_1.ipynb#/)
-* [Assignment 2](https://github.com/UofT-DSI/python/blob/main/05-assignments/assignment_2.ipynb#/)
-
-| Format | Details | Submission Instructions |
-| :----: | :----- | :---------------------- |
-| Assignment 1 | Due on **Wednesday, January 31 at 11:59pm** | Submit assignment via your Google Drive. Upload your code file (LASTNAME_FIRSTNAME_python_assignment1_code.ipynb). |
-| Assignment 2 | Due on **Tuesday, February 6 at 11:59pm** | Submit assignment via your Google Drive. Upload your (1) code file (LASTNAME_FIRSTNAME_python_assignment2_code.ipynb), (2) original data file (LASTNAME_FIRSTNAME_python_assignment2_orig.csv), and (3) processed DataFrame file (LASTNAME_FIRSTNAME_python_assignment2_proc.csv) |
-
-## Key Texts
-Gries, Campbell, and Montojo, 2017, _Practical Programming: An Introduction to Computer Science Using Python 3.6._
-Adhikari, DeNero, and Wagner, _Computational and Inferential Thinking: The Foundations of Data Science._
- 
-## Acknowledgements
-Course materials were originally developed by Asel Kushkeyeva under the supervision of Rohan Alexander. Materials have been modified by A. Mahfouz and Kaylie Lau for 2022, 2023, and 2024.
+* **slides:** Module slides as interactive notebooks (.ipynb files)
+* **assignments:** Graded assignments
+* **homework:** Optional homework to practice concepts covered in class
+* **instructors:** Instructions for the Technical Facilitator on what to teach
+* **data**: Contains all data associated with the module
+* **README**: This file!
+* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
