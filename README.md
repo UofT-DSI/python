@@ -10,7 +10,6 @@
     + [How the Technical Facilitator will deliver](#how-the-technical-facilitator-will-deliver)
     + [Expectations](#expectations)
 * [Schedule](#schedule)
-* [Policies](#policies)
 * [Requirements](#requirements)
 * [Resources](#resources)
     + [Documents](#documents)
@@ -75,14 +74,6 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 |---|---|---|---|---|---|
 |Week 1|Lecture 1 (Data Types and Control Flow, Errors)|Lecture 2 (Inputs and Strings, Type Conversion)|Case Study|Work Period 1|Work Period 2|
 |Week 2|Lecture 3 (Functions, Testing)|Lecture 4 (Object Oriented Programming, numPy)|Case Study|Work Period 1|Work Period 2|
- 
-## Policies
-
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
-* **Module communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Python" or similar in the subject line, e.g. "DSI-Python: pandas question"
-* **Camera:** Keeping your camera on is optional.
-* **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
-* **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
  
 ## Requirements
 
