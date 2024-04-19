@@ -5,10 +5,8 @@
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
 * [Assignments](#assignments)
-* [Module Contacts](#module-contacts)
-* [Delivery of Module](#delivery-of-module)
-    + [How the Technical Facilitator will deliver](#how-the-technical-facilitator-will-deliver)
-    + [Expectations](#expectations)
+* [Contacts](#contacts)
+* [Delivery of the Learning Module](#delivery-of-the-learning-module)
 * [Schedule](#schedule)
 * [Requirements](#requirements)
 * [Resources](#resources)
@@ -18,24 +16,22 @@
 
 ## Description
 
-This module introduces learners to the fundamentals of programming using Python. Learners will be introduced to programming concepts such as functions and object-oriented programming to make use of reusable blocks of code and models respectively. We also introduce `numPy`, an important library in data science and machine learning. By the end of this module, learners will be able to write reusable code to analyze data.
-
-No coding experience is needed to take this module.
+This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models respectively. We also introduce `numPy`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
 
 ## Learning Outcomes
 
-By the end of the module, learners will:
+By the end of the module, participants will be able to:
 
 **Week 1:**
-1. Write block of code in Python using variables and conditionals
-2. Identify the differences between different data types
+1. Write blocks of code in Python using variables and conditionals
+2. Identify the differences between data types
 3. Use a loop to go over elements of an array
 4. Identify and resolve errors
 
 **Week 2:**
 1. Describe the benefits of Object Oriented programming
 2. Write a block of code as a reuseable function
-3. Use manual and automated testing to ensure block of code works as expected
+3. Use manual and automated testing to ensure block of code work as expected
 4. Use the numPy to perform mathematical operations on arrays and datasets
 
 ## Assignments
@@ -45,8 +41,11 @@ There are two assignments (one per week) in this module:
 1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_1.ipynb)
 2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_2.ipynb)
 
-## Module Contacts
-**Questions can be submitted to the #questions channel on Slack**
+Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+
+## Contacts
+
+**Questions can be submitted to the _#cohort-3-help_ channel on Slack**
 
 * Technical Facilitator: 
   * name and pronouns: `<Name>`, `<Pronouns>` 
@@ -56,36 +55,30 @@ There are two assignments (one per week) in this module:
   * email: `<first_name.last_name@mail.ca>`
 
  
-## Delivery of module
+## Delivery of the Learning module
 
-The module will run sychronously up twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the technical facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an technical facilitator or learning support will be present on Zoom to assist learners reach the intended learning outcomes.
-
-The technical facilitator will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01_slides`. The technical facilitator will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
-### Expectations
+Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
-Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
+The technical facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_slides`. The technical facilitator will also upload live coding files to this repository for participants to revisit under `/live_code`.
+
 
 ## Schedule
 
-The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
-
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
-|Week 1|Lecture 1 (Data Types and Control Flow, Errors)|Lecture 2 (Inputs and Strings, Type Conversion)|Case Study|Work Period 1|Work Period 2|
-|Week 2|Lecture 3 (Functions, Testing)|Lecture 4 (Object Oriented Programming, numPy)|Case Study|Work Period 1|Work Period 2|
+|Week 1|Live Learning Session 1 (Data Types and Control Flow, Errors)|Live Learning Session 2 (Inputs and Strings, Type Conversion)|Live Learning Session|Work Period 1|Work Period 2|
+|Week 2|Live Learning Session 4 (Functions, Testing)|Live Learning Session 5 (Object Oriented Programming, numPy)|Case Study|Work Period 1|Work Period 2|
  
 ## Requirements
 
-* Learners are not expected to have any coding experience, we designed the learning contents for beginners.
-* Learners are encouraged to ask questions, and collaborate with others to enhance learning.
-* Learners must have a computer and an internet connection to participate in online activities.
-* Learners must have VSCode installed with the following extensions: 
-    * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* Learners must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be use as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
-* Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+* Participants are not expected to have any coding experience; the learning content has been designed for beginners.
+* Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
+* Participants must have a computer and an internet connection to participate in online activities.
+* Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
+* We expect Participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
 
@@ -129,9 +122,9 @@ Feel free to use the following as resources:
 ```
 
 * **slides:** Module slides as interactive notebooks (.ipynb files)
-* **assignments:** Graded assignments
-* **homework:** Optional homework to practice concepts covered in class
-* **instructors:** Instructions for the Technical Facilitator on what to teach
+* **assignments:** Assignments
+* **homework:** Homework to practice concepts covered in class
+* **instructors:** This folder provides guidance for Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
 * **data**: Contains all data associated with the module
 * **README**: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
