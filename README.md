@@ -36,12 +36,12 @@ By the end of the module, participants will be able to:
 
 ## Assignments
 
+Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+
 There are two assignments (one per week) in this module:
 
 1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_1.ipynb)
 2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_2.ipynb)
-
-Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
 
 ## Contacts
 
