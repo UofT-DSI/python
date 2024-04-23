@@ -104,7 +104,7 @@ Feel free to use the following as resources:
 
 ### How to get help
 
-![image](/steps_to_ask_for_help.png)
+![image](./steps_to_ask_for_help.png)
 
 <hr>
 
@@ -115,7 +115,7 @@ Feel free to use the following as resources:
 ├── 01_slides
 ├── 02_assignments
 ├── 03_homework
-├── 04_instructors
+├── 04_instructional_team
 ├── 05_data
 ├── README.md
 └── steps_to_ask_for_help.png
