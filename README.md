@@ -124,7 +124,7 @@ Feel free to use the following as resources:
 * **slides:** Module slides as interactive notebooks (.ipynb files)
 * **assignments:** Assignments
 * **homework:** Homework to practice concepts covered in class
-* **instructors:** This folder provides guidance for Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
+* **instructors:** This folder guides Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
 * **data**: Contains all data associated with the module
 * **README**: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
