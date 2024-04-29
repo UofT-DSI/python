@@ -22,17 +22,14 @@ This module introduces participants to the fundamentals of programming using Pyt
 
 By the end of the module, participants will be able to:
 
-**Week 1:**
 1. Identify the differences between data types
-2. Write blocks of code in Python using variables and conditionals
-3. Use a loop to go over elements of an array
-4. Identify and resolve errors
-
-**Week 2:**
-1. Write a block of code as a reusable function
-2. Use manual and automated testing to ensure block of code work as expected
-3. Describe the benefits of Object Oriented programming
-4. Use the `numPy` library to perform mathematical operations on arrays and datasets
+2. Identify and resolve errors
+3. Write a block of code as a reusable function
+4. Use manual and automated testing to ensure block of code work as expected
+5. Write blocks of code in Python using variables and conditionals
+6. Use a loop to go over elements of an array
+7. Describe the benefits of Object Oriented programming
+8. Use the `numPy` library to perform mathematical operations on arrays and datasets
 
 ## Assignments
 
