@@ -22,17 +22,14 @@ This module introduces participants to the fundamentals of programming using Pyt
 
 By the end of the module, participants will be able to:
 
-**Week 1:**
-1. Write blocks of code in Python using variables and conditionals
-2. Identify the differences between data types
-3. Use a loop to go over elements of an array
-4. Identify and resolve errors
-
-**Week 2:**
-1. Describe the benefits of Object Oriented programming
-2. Write a block of code as a reuseable function
-3. Use manual and automated testing to ensure block of code work as expected
-4. Use the `numPy` library to perform mathematical operations on arrays and datasets
+1. Identify the differences between data types
+2. Identify and resolve errors
+3. Write a block of code as a reusable function
+4. Use manual and automated testing to ensure block of code work as expected
+5. Write blocks of code in Python using variables and conditionals
+6. Use a loop to go over elements of an array
+7. Describe the benefits of Object Oriented programming
+8. Use the `numPy` library to perform mathematical operations on arrays and datasets
 
 ## Assignments
 
@@ -68,8 +65,8 @@ Participants are encouraged to engage actively during the learning module. They 
 
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 (Data Types, Control Flow)|Live Learning Session 2 (Control Flow, Error, Input)|Live Learning Session 3 (Strings, Converting Types) |Work Period 1|Work Period 2|
-|Week 2|Live Learning Session 4 (Functions, Testing)|Live Learning Session 5 (Object Oriented Programming, `numPy`)|Case Study|Work Period 3|Work Period 4|
+|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Testing, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
+|Week 2|Live Learning Session 4 (Control Flow, Reading/Writing)|Live Learning Session 5 (Object Oriented Programming, `numPy`)|Case Study|Work Period 3|Work Period 4|
 
 While APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
