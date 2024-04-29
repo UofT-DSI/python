@@ -68,7 +68,7 @@ Participants are encouraged to engage actively during the learning module. They 
 
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 (Data Types, Error, Functions)|Live Learning Session 2 (Functions, Testing, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
+|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Testing, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
 |Week 2|Live Learning Session 4 (Control Flow, Reading/Writing)|Live Learning Session 5 (Object Oriented Programming, `numPy`)|Case Study|Work Period 3|Work Period 4|
 
 While APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
