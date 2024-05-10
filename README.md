@@ -22,54 +22,53 @@ This module introduces participants to the fundamentals of programming using Pyt
 
 By the end of the module, participants will be able to:
 
-**Week 1:**
-1. Write blocks of code in Python using variables and conditionals
-2. Identify the differences between data types
-3. Use a loop to go over elements of an array
-4. Identify and resolve errors
-
-**Week 2:**
-1. Describe the benefits of Object Oriented programming
-2. Write a block of code as a reuseable function
-3. Use manual and automated testing to ensure block of code work as expected
-4. Use the numPy to perform mathematical operations on arrays and datasets
+1. Identify the differences between data types
+2. Identify and resolve errors
+3. Write a block of code as a reusable function
+4. Use manual and automated testing to ensure block of code work as expected
+5. Write blocks of code in Python using variables and conditionals
+6. Use a loop to go over elements of an array
+7. Describe the benefits of Object Oriented programming
+8. Use the `numPy` library to perform mathematical operations on arrays and datasets
 
 ## Assignments
 
+Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+
 There are two assignments (one per week) in this module:
 
-1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_1.ipynb)
-2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_2.ipynb)
-
-Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_1.ipynb): Due **Sunday May 5 at 11:59 PM**
+2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_assignments/assignment_2.ipynb): Due **Sunday May 12 at 11:59 PM**
 
 ## Contacts
 
 **Questions can be submitted to the _#cohort-3-help_ channel on Slack**
 
 * Technical Facilitator: 
-  * name and pronouns: `<Name>`, `<Pronouns>` 
-  * email: `<first_name.last_name@mail.ca>`
+  * **Kaylie Lau** (She/Her): kaylie.lau@mail.utoronto.ca
 * Learning Support Staff: 
-  * name and pronouns: `<Name>`, `<Pronouns>` 
-  * email: `<first_name.last_name@mail.ca>`
+  * **Michaela Drouillard** (She/Her): michaela.drouillard@mail.utoronto.ca
+  * **Julia Gallucci** (She/Her): julia.gallucci@mail.utoronto.ca
+  * **Emma Teng** (She/Her): e.teng@mail.utoronto.ca
 
- 
-## Delivery of the Learning module
+## Delivery of the Learning Module
 
-This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./06_cohort_three/live_code`.
+
+
+Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
+
 Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
-
-The technical facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_slides`. The technical facilitator will also upload live coding files to this repository for participants to revisit under `/live_code`.
-
 
 ## Schedule
 
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 (Data Types and Control Flow, Errors)|Live Learning Session 2 (Inputs and Strings, Type Conversion)|Live Learning Session|Work Period 1|Work Period 2|
-|Week 2|Live Learning Session 4 (Functions, Testing)|Live Learning Session 5 (Object Oriented Programming, numPy)|Case Study|Work Period 1|Work Period 2|
+|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Testing, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
+|Week 2|Live Learning Session 4 (Control Flow, Reading/Writing)|Live Learning Session 5 (Object Oriented Programming, `numPy`)|Case Study|Work Period 3|Work Period 4|
+
+While APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
 ## Requirements
 
@@ -77,7 +76,7 @@ The technical facilitator will introduce concepts through a collaborative live c
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect Participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
@@ -104,7 +103,7 @@ Feel free to use the following as resources:
 
 ### How to get help
 
-![image](/steps_to_ask_for_help.png)
+![image](./steps_to_ask_for_help.png)
 
 <hr>
 
@@ -115,7 +114,7 @@ Feel free to use the following as resources:
 ├── 01_slides
 ├── 02_assignments
 ├── 03_homework
-├── 04_instructors
+├── 04_instructional_team
 ├── 05_data
 ├── README.md
 └── steps_to_ask_for_help.png
@@ -124,7 +123,8 @@ Feel free to use the following as resources:
 * **slides:** Module slides as interactive notebooks (.ipynb files)
 * **assignments:** Assignments
 * **homework:** Homework to practice concepts covered in class
-* **instructors:** This folder provides guidance for Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
+* **instructors:** This folder guides Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
 * **data**: Contains all data associated with the module
 * **README**: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
+
