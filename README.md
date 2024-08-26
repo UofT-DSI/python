@@ -16,7 +16,7 @@
 
 ## Description
 
-This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
+This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy` and `pandas`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
 
 ## Learning Outcomes
 
