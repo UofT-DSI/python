@@ -16,7 +16,7 @@
 
 ## Description
 
-This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
+This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy` and `pandas`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
 
 ## Learning Outcomes
 
@@ -25,11 +25,11 @@ By the end of the module, participants will be able to:
 1. Identify the differences between data types
 2. Identify and resolve errors
 3. Write a block of code as a reusable function
-4. Use manual and automated testing to ensure block of code work as expected
-5. Write blocks of code in Python using variables and conditionals
-6. Use a loop to go over elements of an array
-7. Describe the benefits of Object Oriented programming
-8. Use the `numPy` library to perform mathematical operations on arrays and datasets
+4. Write blocks of code in Python using variables and conditionals
+5. Use a loop to go over elements of an array
+6. Describe the benefits of Object Oriented programming
+7. Use the `numPy` library to perform mathematical operations on arrays and datasets
+8. Use the `pandas` library to analyze a dataset, and manipulate numerical and tabular data.
 
 ## Assignments
 
@@ -65,10 +65,10 @@ Participants are encouraged to engage actively during the learning module. They 
 
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Testing, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
-|Week 2|Live Learning Session 4 (Control Flow, Reading/Writing)|Live Learning Session 5 (Object Oriented Programming, `numPy`)|Case Study|Work Period 3|Work Period 4|
+|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
+|Week 2|Live Learning Session 4 (Reading/Writing, Object Oriented Programming, `numPy`)|Live Learning Session 5 (`pandas`)|Case Study|Work Period 3|Work Period 4|
 
-While APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
+While Testing, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
 ## Requirements
 
