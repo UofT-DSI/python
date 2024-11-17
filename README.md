@@ -16,7 +16,7 @@
 
 ## Description
 
-This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy` and `pandas`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
+This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
 
 ## Learning Outcomes
 
@@ -29,7 +29,6 @@ By the end of the module, participants will be able to:
 5. Use a loop to go over elements of an array
 6. Describe the benefits of Object Oriented programming
 7. Use the `numPy` library to perform mathematical operations on arrays and datasets
-8. Use the `pandas` library to analyze a dataset, and manipulate numerical and tabular data.
 
 ## Assignments
 
@@ -37,19 +36,19 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 There are two assignments (one per week) in this module:
 
-1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **Sunday September 1 at 11:59 PM**
-2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **Sunday September 8 at 11:59 PM**
+1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **Sunday December 1 at 11:59 PM**
+2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **Sunday December 8 at 11:59 PM**
 
 ## Contacts
 
-**Questions can be submitted to the _#cohort-4-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-5-help_ channel on Slack**
 
 * Technical Facilitator: 
   * **Kaylie Lau** (She/Her): kaylie.lau@mail.utoronto.ca
 * Learning Support Staff: 
-  * **Emma Teng** (She/Her): e.teng@mail.utoronto.ca 
-  * **Pedram Aliniaye Asli** (He/Him):  pedram.aliniayeasli@gmail.com 
-  * **Sidra Bushra** (She/Her): contact.sidra.bushra@gmail.com 
+  * **Pedram Aliniaye Asli** (He/Him):  pedram.aliniayeasli@gmail.com
+  * **Anjali Shrivastava** (INSERT): anju_shrivastava@yahoo.com
+  * **MC Chan** (INSERT): chanmoniz526@gmail.com
 
 ## Delivery of the Learning Module
 
@@ -66,9 +65,9 @@ Participants are encouraged to engage actively during the learning module. They 
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
 |Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow) |Work Period 1|Work Period 2|
-|Week 2|Live Learning Session 4 (Reading/Writing, Object Oriented Programming, `numPy`)|Live Learning Session 5 (`pandas`)|Case Study|Work Period 3|Work Period 4|
+|Week 2|Live Learning Session 4 (Reading/Writing, Object Oriented Programming)|Live Learning Session 5 (`numPy`)|Case Study|Work Period 3|Work Period 4|
 
-While Testing, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
+While Testing, `pandas`, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
 ## Requirements
 
