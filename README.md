@@ -47,8 +47,8 @@ There are two assignments (one per week) in this module:
   * **Kaylie Lau** (She/Her): kaylie.lau@mail.utoronto.ca
 * Learning Support Staff: 
   * **Pedram Aliniaye Asli** (He/Him):  pedram.aliniayeasli@gmail.com
-  * **Anjali Shrivastava** (INSERT): anju_shrivastava@yahoo.com
-  * **MC Chan** (INSERT): chanmoniz526@gmail.com
+  * **Anjali Shrivastava** (She/Her): anju_shrivastava@yahoo.com
+  * **Moniz Chan**: chanmoniz526@gmail.com
 
 ## Delivery of the Learning Module
 
