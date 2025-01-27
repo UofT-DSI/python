@@ -41,14 +41,13 @@ There are two assignments (one per week) in this module:
 
 ## Contacts
 
-**Questions can be submitted to the _#cohort-5-help_ channel on Slack**
+**Questions can be submitted to the _#dc-help_ channel on Slack**
 
 * Technical Facilitator: 
   * **Kaylie Lau** (She/Her): kaylie.lau@mail.utoronto.ca
 * Learning Support Staff: 
-  * **Anjali Shrivastava** (She/Her): anju_shrivastava@yahoo.com
-  * **Moniz Chan**: chanmoniz526@gmail.com
-  * **Pedram Aliniaye Asli** (He/Him):  pedram.aliniayeasli@gmail.com
+  * **Julia Gallucci** (She/Her): julia.gallucci@mail.utoronto.ca
+  * **Keli Chiu**: keli.chiu.kc@gmail.com
 
 ## Delivery of the Learning Module
 
