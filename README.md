@@ -100,12 +100,6 @@ Feel free to use the following as resources:
 - [OOP Part 2](https://www.youtube.com/watch?v=WOwi0h_-dfA)
 - [NumPy Playlist](https://www.youtube.com/playlist?list=PLGZqdNxqKzfYVbCaAKTPHVjz-VjQtBzbl)
 
-### How to get help
-
-![image](./steps_to_ask_for_help.png)
-
-<hr>
-
 ## Folder Structure
 
 ```markdown
