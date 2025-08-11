@@ -36,19 +36,19 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 There are two assignments (one per week) in this module:
 
-1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **Sunday May 4 at 11:59 PM**
-2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **Sunday May 11 at 11:59 PM**
+1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **Sunday August 24 at 11:59 PM**
+2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **Sunday August 31 at 11:59 PM**
 
 ## Contacts
 
-**Questions can be submitted to the _#dc-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-7-help_ channel on Slack**
 
 * Technical Facilitator: 
   * **Kaylie Lau** (She/Her): kaylie.lau@mail.utoronto.ca
 * Learning Support Staff: 
   * **Julia Gallucci** (She/Her): julia.gallucci@mail.utoronto.ca
-  * **Anjali Deshpande**: anju_shrivastava@yahoo.com
-  * **Laura MacKew**: lauramackew@gmail.com
+  * **Edward Chen**: edwardty.chen@utoronto.ca
+  * **Xindi Zhang**: xindi.zhang@mail.utoronto.ca
 
 ## Delivery of the Learning Module
 
