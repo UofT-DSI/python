@@ -1,3 +1,6 @@
 .DS_Store
 .vscode/
 plants.txt
+
+uv.lock
+python-env
