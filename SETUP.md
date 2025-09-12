@@ -5,6 +5,7 @@ Before using this repo, make sure you’ve completed the [environment setup guid
 - Git  
 - Git Bash (for Windows)  
 - Visual Studio Code
+- UV
 
 ## Necessary Packages
 The Python module uses its own isolated environment called `python-env` so that packages don’t conflict with other projects. 
