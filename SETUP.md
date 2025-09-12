@@ -10,6 +10,7 @@ Before using this repo, make sure you’ve completed the [environment setup guid
 ## Necessary Packages
 The Python module uses its own isolated environment called `python-env` so that packages don’t conflict with other projects. 
 We use **uv** to create this environment, activate it, and install the required packages listed in the module’s `pyproject.toml`.  
+This setup only needs to be done **once per module**, after that, you just activate the environment whenever you want to work in this repo.  
 
 Open a terminal (macOS/Linux) or Git Bash (Windows) in this repo, and run the following commands in order:
 
