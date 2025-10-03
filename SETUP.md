@@ -61,6 +61,40 @@ deactivate
 > **👉 Remember**   
 > Only one environment can be active at a time. If you switch to a different repo, first deactivate this one (or just close the terminal) and then activate the new repo’s environment.
 
+## Connecting `python-env` to VS Code
+
+### Step 1: Open VS Code:
+Launch Visual Studio Code.
+
+### Step 2: Create or Open a Notebook
+1. Create a new notebook:
+    - In the menu bar, click on the File button. From the dropdown list, click New File.
+    - You can then type in Jupyter and select the Jupyter Notebook option.
+    - The file should have an .ipynb extension (e.g., new_notebook.ipynb) when you save it.
+2. Note that later on you will also be opening existing Jupyter Notebook files.
+![](./03_instructional_team/setup_images/create_new_notebook.png)
+
+### Step 3: Select the Kernel
+1. Look for the Kernel Picker in the top-right corner of the notebook interface in VS Code and click it. It will say something like Select Kernel if no kernel is currently selected.
+![](./03_instructional_team/setup_images/kernel_picker.png)
+
+> Note: If your notebook does not look like this or you do not see a Select Kernel button, you may not have the extension installed. Please ensure you have the Jupyter extension ([download and install here](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)).
+
+2. Click on the Kernel Picker and click Python Environments, then choose the `python-env` kernel from the dropdown list.
+
+![](./03_instructional_team/setup_images/select_env.png)
+![](./03_instructional_team/setup_images/select_python_env.png)
+
+
+### Step 4: Verify the Kernel
+
+1. Once the kernel is connected, you should see the name `python-env` in the top-right corner of the notebook editor.
+2. Test the kernel by typing import numpy as np into the "cell" (the box in the notebook) and clicking the run button (▶️) next to the cell. 
+
+![](./03_instructional_team/setup_images/verify_kernel.png)
+
+If no error messages come up then you are good to go!
+
 ---
 
 For questions or issues, please contact the Python Module learning support team or email courses.dsi@utoronto.ca.
