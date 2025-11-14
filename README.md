@@ -41,7 +41,7 @@ There are two assignments (one per week) in this module:
 
 ## Contacts
 
-**Questions can be submitted to the _#dc2-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-8-help_ channel on Slack**
 
 * Technical Facilitator: 
   * **Kaylie Lau**: kaylie.lau@mail.utoronto.ca
