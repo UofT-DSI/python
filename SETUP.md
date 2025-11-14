@@ -77,6 +77,7 @@ Launch Visual Studio Code.
 1. Click File → Open Folder
 2. Select the folder you just cloned
 3. Click Open
+![](./03_instructional_team/setup_images/open_repo_folder.png)
 
 ### Step 4: Create or Open a Notebook
 1. Create a new notebook:
