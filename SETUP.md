@@ -63,18 +63,31 @@ deactivate
 
 ## Connecting `python-env` to VS Code
 
-### Step 1: Open VS Code:
+### Step 1: Clone the Repository
+Clone the repo to your computer using the terminal.
+
+git clone <https://github.com/UofT-DSI/python.git>
+
+This creates a project folder on your computer.
+
+### Step 2: Open VS Code:
 Launch Visual Studio Code.
 
-### Step 2: Create or Open a Notebook
+### Step 3: Open the Repo Folder in VS Code
+1. Click File → Open Folder
+2. Select the folder you just cloned
+3. Click Open
+
+### Step 4: Create or Open a Notebook
 1. Create a new notebook:
     - In the menu bar, click on the File button. From the dropdown list, click New File.
     - You can then type in Jupyter and select the Jupyter Notebook option.
     - The file should have an .ipynb extension (e.g., new_notebook.ipynb) when you save it.
-2. Note that later on you will also be opening existing Jupyter Notebook files.
+2. Save your Jupyter notebooks _inside_ the repo folder so that you do not get "kernel not found" or "module not found" errors in later steps.
+3. Note that later on you will also be opening existing Jupyter Notebook files.
 ![](./03_instructional_team/setup_images/create_new_notebook.png)
 
-### Step 3: Select the Kernel
+### Step 5: Select the Kernel
 1. Look for the Kernel Picker in the top-right corner of the notebook interface in VS Code and click it. It will say something like Select Kernel if no kernel is currently selected.
 ![](./03_instructional_team/setup_images/kernel_picker.png)
 
@@ -86,7 +99,7 @@ Launch Visual Studio Code.
 ![](./03_instructional_team/setup_images/select_python_env.png)
 
 
-### Step 4: Verify the Kernel
+### Step 6: Verify the Kernel
 
 1. Once the kernel is connected, you should see the name `python-env` in the top-right corner of the notebook editor.
 2. Test the kernel by typing import numpy as np into the "cell" (the box in the notebook) and clicking the run button (▶️) next to the cell. 
