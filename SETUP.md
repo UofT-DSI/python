@@ -9,28 +9,45 @@ Before using this repo, make sure you’ve completed the [environment setup guid
 
 ## Necessary Packages
 The Python module uses its own isolated environment called `python-env` so that packages don’t conflict with other projects. 
-We use **uv** to create this environment, activate it, and install the required packages listed in the module’s `pyproject.toml`.  
+We will use **uv** to create this environment, activate it, and install the required packages listed in the module’s `pyproject.toml`.  
 This setup only needs to be done **once per module**, after that, you just activate the environment whenever you want to work in this repo.  
 
-Open a terminal (macOS/Linux) or Git Bash (Windows) in this repo, and run the following commands in order:
+**Open a terminal (macOS/Linux) or Git Bash (Windows)** and run the following commands in order:
 
-1. Create a virtual environment called `python-env`:
-    ```
+1. Navigate to the directory where you want to clone the module’s repo and then confirm that you are in the correct location:
+```
+cd your/directory/here
+pwd
+```
+
+2. Clone the module's repo to your computer:
+```
+git clone <https://github.com/UofT-DSI/python.git>
+```
+
+3. Navigate into the repo folder you just cloned, then confirm that you are in the correct directory. 
+```
+cd python
+pwd
+```
+
+4. Create a virtual environment called `python-env`:
+    ```bash
     uv venv python-env --python 3.11
     ```
 
-2. Activate the environment:
+5. Activate the environment:
     - for macOS/Linux:
-        ```
+        ```bash
         source python-env/bin/activate
         ```
         
     - for windows (git bash):    
-        ```
+        ```bash
         source python-env/Scripts/activate
         ```
 
-3. Install all required packages from the [pyproject.toml](./pyproject.toml)
+6. Install all required packages from the [pyproject.toml](./pyproject.toml):
     ```bash
     uv sync --active
     ```
@@ -66,15 +83,22 @@ deactivate
 ### Step 1: Open VS Code:
 Launch Visual Studio Code.
 
-### Step 2: Create or Open a Notebook
+### Step 2: Open the Repo Folder in VS Code
+1. Click File → Open Folder
+2. Select the repo folder.
+3. Click Open
+![](./03_instructional_team/setup_images/open_repo_folder.png)
+
+### Step 3: Create or Open a Notebook
 1. Create a new notebook:
     - In the menu bar, click on the File button. From the dropdown list, click New File.
     - You can then type in Jupyter and select the Jupyter Notebook option.
     - The file should have an .ipynb extension (e.g., new_notebook.ipynb) when you save it.
-2. Note that later on you will also be opening existing Jupyter Notebook files.
+2. Save your Jupyter notebooks _inside_ the repo folder so that you do not get "kernel not found" or "module not found" errors in later steps.
+3. Note that later on you will also be opening existing Jupyter Notebook files.
 ![](./03_instructional_team/setup_images/create_new_notebook.png)
 
-### Step 3: Select the Kernel
+### Step 4: Select the Kernel
 1. Look for the Kernel Picker in the top-right corner of the notebook interface in VS Code and click it. It will say something like Select Kernel if no kernel is currently selected.
 ![](./03_instructional_team/setup_images/kernel_picker.png)
 
@@ -86,10 +110,10 @@ Launch Visual Studio Code.
 ![](./03_instructional_team/setup_images/select_python_env.png)
 
 
-### Step 4: Verify the Kernel
+### Step 5: Verify the Kernel
 
 1. Once the kernel is connected, you should see the name `python-env` in the top-right corner of the notebook editor.
-2. Test the kernel by typing import numpy as np into the "cell" (the box in the notebook) and clicking the run button (▶️) next to the cell. 
+2. Test the kernel by typing ```import numpy as np``` into the "cell" (the box in the notebook) and clicking the run button (▶️) next to the cell. 
 
 ![](./03_instructional_team/setup_images/verify_kernel.png)
 
