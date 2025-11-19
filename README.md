@@ -1,5 +1,5 @@
 # Python
- 
+
 ## Content
 
 * [Description](#description)
@@ -16,7 +16,7 @@
 
 ## Description
 
-This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `numPy`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
+This module introduces participants to the fundamentals of programming using Python. Participants will be introduced to the concepts of functions and object-oriented programming to make use of reusable blocks of code and models, respectively. We also introduce `NumPy`, an important library in data science and machine learning. By the end of this module, participants will be able to write reusable code to analyze data.
 
 ## Learning Outcomes
 
@@ -28,7 +28,7 @@ By the end of the module, participants will be able to:
 4. Write blocks of code in Python using variables and conditionals
 5. Use a loop to go over elements of an array
 6. Describe the benefits of Object Oriented programming
-7. Use the `numPy` library to perform mathematical operations on arrays and datasets
+7. Use the `NumPy` library to perform mathematical operations on arrays and datasets
 
 ## Assignments
 
@@ -52,22 +52,22 @@ There are two assignments (one per week) in this module:
 
 ## Delivery of the Learning Module
 
-This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_materials/slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./04_this_cohort/live_code`.
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Jupyter notebooks found under `/01_materials/slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./04_this_cohort/live_code`.
 
 
 Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
 
-Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
+Participants are encouraged to engage actively during the learning module. The key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
 ## Schedule
 
 ||Tuesday|Wednesday|Thursday|Friday|Saturday|
 |---|---|---|---|---|---|
 |Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow)|Work Period 1|Work Period 2|
-|Week 2| Live Learning Session 4 (Reading/Writing, Object Oriented Programming)|Live Learning Session 5 (`numPy`)|Case Study|Work Period 3|Work Period 4|
+|Week 2| Live Learning Session 4 (Reading/Writing, Object Oriented Programming)|Live Learning Session 5 (`NumPy`)|Case Study|Work Period 3|Work Period 4|
 
-While Testing, `pandas`, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
+While testing, `pandas`, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
 ## Requirements
 
@@ -94,13 +94,13 @@ Feel free to use the following as resources:
 
 - [Dictionaries](https://www.youtube.com/watch?v=u0yr9B3nH8c)
 - [Loops](https://www.youtube.com/watch?v=dHANJ4l6fwA)
-- [Function](https://www.youtube.com/watch?v=NSbOtYzIQI0)
+- [Functions](https://www.youtube.com/watch?v=NSbOtYzIQI0)
 - [Return vs print](https://www.youtube.com/watch?v=LWdsF79H1Pg)
 - [OOP Part 1](https://www.youtube.com/watch?v=wfcWRAxRVBA)
 - [OOP Part 2](https://www.youtube.com/watch?v=WOwi0h_-dfA)
 - [NumPy Playlist](https://www.youtube.com/playlist?list=PLGZqdNxqKzfYVbCaAKTPHVjz-VjQtBzbl)
 
-## Folder Structure
+## Folder structure
 
 ```markdown
 .
@@ -122,11 +122,9 @@ Feel free to use the following as resources:
 * **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
 * **instructional_team**: Resources for the instructional team.
 * **this_cohort**: Additional materials and resources for this cohort, including live coding files.
-* **src/data**: Source code, databases, logs, and required dependencies (requirements.txt) needed during the module.
-* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **src/data**: Source databases.
+* **.gitignore**: Files to exclude from this repository, specified by the Technical Facilitator.
 * **LICENSE**: The license for this repository.
 * **SETUP.md**: Contains the steps required to set up this repo for the module.
 * **pyproject.toml**: Tells Python which packages this repo needs to run.  
 * **README.md**: This file.
-
-
