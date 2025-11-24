@@ -20,10 +20,17 @@ cd your/directory/here
 pwd
 ```
 
-2. Clone the module's repo to your computer:
+2. Fork, then Clone (same workflow as Shell and SQL modules)
+
+Before cloning, go to the GitHub repo page and fork it into your own GitHub account.
+
+Once the repo has been forked, clone your fork (not the original):
+
 ```
-git clone <https://github.com/UofT-DSI/python.git>
+git clone https://github.com/<your-github-username>/python.git
 ```
+
+Replace <your-github-username> with your actual GitHub username.
 
 3. Navigate into the repo folder you just cloned, then confirm that you are in the correct directory. 
 ```
