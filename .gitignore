@@ -1,6 +1,13 @@
-.DS_Store
-.vscode/
-plants.txt
+# Environment files
+05_src/.env
+05_src/.secrets
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+**/utils
+
+**/.deepeval_telemetry.txt
+
 uv.lock
-python-env
-.venv
