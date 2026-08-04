@@ -36,8 +36,8 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 There are two assignments (one per week) in this module:
 
-1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **April 20, 2026**
-2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **April 27, 2026**
+1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **August 17, 2026**
+2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **August 24, 2026**
 
 ## Contacts
 
