@@ -41,7 +41,7 @@ There are two assignments (one per week) in this module:
 
 ## Contacts
 
-**Questions can be submitted to the _#dsf1-help_ channel on Slack**
+**Questions can be submitted to the _#dsf2-help_ channel on Slack**
 * Technical Facilitator: **Julia**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06D4QM7YEA)
 * Learning Support Staff: **Kasra**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U0ASXQSJBHP)
 * Learning Support Staff: **Dmytro**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06UR87QWQ7) 
