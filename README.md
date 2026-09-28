@@ -36,15 +36,16 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 There are two assignments (one per week) in this module:
 
-1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **August 17, 2026**
-2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **August 24, 2026**
+1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **October 13, 2026**
+2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **October 19, 2026**
 
 ## Contacts
 
-**Questions can be submitted to the _#dsf2-help_ channel on Slack**
-* Technical Facilitator: **Julia**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06D4QM7YEA)
+**Questions can be submitted to the _#dc4-help_ channel on Slack**
+* Technical Facilitator: **Madeleine**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U0C29V73VA9)
 * Learning Support Staff: **Kasra**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U0ASXQSJBHP)
 * Learning Support Staff: **Dmytro**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06UR87QWQ7) 
+* Learning Support Staff: **Edward**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U090NAV8Z8U)
 
 ## Delivery of the Learning Module
 
@@ -58,10 +59,11 @@ Participants are encouraged to engage actively during the learning module. They 
 
 ## Schedule
 
-| Week   | Tuesday | Wednesday | Thursday | Friday |
-|--------|---------|-----------|----------|--------|
-| Week 1 | Live Learning Session 1 (Introduction, Data Types, Error) | Live Learning Session 2 (Functions, Strings, Converting Types, Input) | Live Learning Session 3 (Control Flow) | Work Period 1 |
-| Week 2 | Live Learning Session 4 (Reading/Writing, Object Oriented Programming) | Live Learning Session 5 (`numPy` and `pandas`) |  Live Learning Session 6 (Case study) | Work Period 2 |
+| Week   | Tuesday | Thursday | Friday |
+|--------|---------|----------|--------|
+| Week 1 |---------| Live Learning Session 1 (Introduction, Data Types, Error) | Work Period 1 |
+| Week 2 | Live Learning Session 2 (Functions, Strings, Converting Types, Input) | Live Learning Session 3 (Control Flow) | Work Period 2 |
+| Week 3 | Live Learning Session 4 (Reading/Writing, Object Oriented Programming) | Live Learning Session 5 (`numPy` and `pandas`) | Work Period 3 |
 
 While Testing, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
